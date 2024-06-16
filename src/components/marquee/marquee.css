@@ -1,0 +1,29 @@
+.marquee{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+h1{
+    opacity: 0.7;
+    z-index: -1;
+    --tw-text-opacity: 1;
+    color: rgb(243 232 232);
+    letter-spacing: 0.025em;
+    font-family: 'Playfair Display';
+    font-size: 9.75rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    animation: moving-marquee 70s linear infinite;
+}
+
+@keyframes moving-marquee{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

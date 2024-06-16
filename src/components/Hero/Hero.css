@@ -1,0 +1,142 @@
+.hero-container{
+ display: grid;
+ grid-template-rows: 35% 65%;
+ background-color: rgba(252,251,250,1);
+ 
+}
+
+.hero-col1{
+    grid-area: 2;
+    margin: 30px;
+}
+.p1{
+    color: rgba(212, 167, 167, 1);
+    line-height: 1.7;
+    letter-spacing: 0.15em;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Syne';
+    font-weight: 500;
+    font-style: normal;
+}
+.p2{
+    color: rgba(47, 47, 47, 1);
+    text-transform: capitalize;
+    line-height: 1.1;
+    letter-spacing: 0em;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: 300;
+    font-style: normal;
+}
+.p2-italics{
+    text-decoration: underline rgba(234, 219, 219, 1);
+    
+}
+.p3{
+    color: rgba(47, 47, 47, 1);
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Assistant';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hero-btn{
+    border-color: rgba(231, 201, 201, 1);
+    border-width: 0px;
+    background-color: rgba(243, 232, 232, 1);
+    transition-duration: 0.5s;
+    transition-property: background-color, border-color;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.hero-btnp{
+    letter-spacing: 0.12em;
+    font-size: 14px;
+    font-family: 'Syne';
+    font-weight: 500;
+    font-style: normal;
+    padding: 6px;
+    text-transform: uppercase;
+}
+
+.hero-btn:hover{
+    background-color: rgba(234, 219, 219, 0.8);
+}
+.hero-btnp:hover{
+color: rgba(231, 201, 201, 1);
+}  
+.hero-col2{
+    grid-area:1;
+    position: relative;
+}
+
+.hero-img{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
+    height: auto;
+    
+
+}
+
+
+@media only screen and (min-width:768px) {
+    .hero-container{
+        grid-template-columns:65% 35%;
+    }
+
+    .hero-col1{
+      grid-area: 1; 
+      margin-top: 60px;  
+      margin-left: 100px;
+    }
+
+    .p1{
+        color: rgba(212, 167, 167, 1);
+        line-height: 1.7;
+        letter-spacing: 0.15em;
+        font-size: 17px;
+        text-align: left;
+        font-family: 'Syne';
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .p2{
+        color: rgba(47, 47, 47, 1);
+        text-transform: capitalize;
+        line-height: 1.1;
+        letter-spacing: 0em;
+        font-size: 70px;
+        text-align: left;
+        font-family: 'Playfair Display';
+        font-weight: 300;
+        font-style: normal
+    }
+
+    .p3{
+        color: rgba(47, 47, 47, 1);
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+        font-size: 16px;
+        text-align: left;
+        font-family: 'Assistant';
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+
+    .hero-col2{
+        grid-area: 1;
+    }
+}
+
+
