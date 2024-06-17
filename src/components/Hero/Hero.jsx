@@ -17,10 +17,11 @@ const Hero = () => {
                     voluptatibus incidunt tempora eius architecto totam aliquid vel doloremque,
                      assumenda fugit corporis aliquam officiis repellat dolore. Beatae, doloribus expedita?
                 </p>
+                <div className='btn-div'>
                 <button className='hero-btn'>
                     <p className='hero-btnp'>Explore our services</p>
                 </button>
-
+                </div>
             </div>
             <div className="hero-col2">
                     <img src={hero}alt="hero" className='hero-img'/>

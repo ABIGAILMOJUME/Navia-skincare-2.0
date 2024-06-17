@@ -6,35 +6,37 @@
     justify-content: space-between;  
     align-items: center;
     background-color: rgba(252,251,250,1);
-    padding: 15px 3%;
-    flex: auto;
+    padding: 1rem;
     border-bottom: solid 1px rgba(234, 219, 219, 1);
     
 }
-
+.logo{
+  max-width: 9.375rem; 
+  height: auto;
+}
 
 ul{
     display: flex;
     list-style: none; 
-    text-align: center;
+    text-align: center
+    
 } 
 
  li a{ 
      margin: 0 0.5rem;
      padding: 0.5rem;
-     font-size: 13px;
+     font-size: 0.8rem;
      text-decoration: none;
      text-transform: uppercase ;
-     letter-spacing: 0.12em;
-     font-family: 'Syne';
+     letter-spacing: 0.12rem;
+     font-family: 'Syne'; 
      font-weight: 500;
      font-style: normal;
      color: rgba(47, 47, 47, 1);
      transition-duration: 0.5s;
     transition-property: color, letter-spacing;
-       
-   
 }
+
 
 
 li a:hover {
@@ -48,8 +50,8 @@ li a:hover {
     background-color: rgba(234, 219, 219, 1);
     border-style: solid;
     border-radius: 50px;
-    height: 52px;
-    width: 226px;
+    height: 3.25rem;
+    width: 14.125rem;
     margin:0 30px;
     box-sizing: border-box;
     
@@ -70,6 +72,19 @@ li a:hover {
 .nav-btnp:hover{
 color: rgba(231, 201, 201, 1);
 }  
+
+
+ @media only screen and (max-width: 992px) {
+    .logo{
+        transform: scale(0.8, 0.8);
+    }
+   
+    .nav-btn{
+        transform: scale(0.8, 0.8);
+    }
+ }
+
+
  
 
  @media only screen and (max-width: 768px) {
@@ -83,4 +98,4 @@ color: rgba(231, 201, 201, 1);
 
  
 
-  
+ 
