@@ -1,154 +1,111 @@
-.hero-container{
- display: grid;
- grid-template-rows: 35% 65%;
- background-color: rgba(252,251,250,1);
- 
+.hero-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  background-color: #fcfbfa;
 }
 
-.hero-col1{
-    grid-area: 2;
-    margin: 30px;
+.first-column {
+  margin: 40px 100px;
 }
-.p1{
-    color: rgba(212, 167, 167, 1);
-    line-height: 1.7;
-    letter-spacing: 0.15em;
-    font-size: 0.9rem;
-    text-align: center;
-    font-family: 'Syne';
-    font-weight: 500;
-    font-style: normal;
+
+.p1 {
+  color: #d4a7a7;
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+  text-align: left;
+  font-family: "Syne";
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
 }
-.p2{
-    color: rgba(47, 47, 47, 1);
-    text-transform: capitalize;
-    line-height: 1.1;
-    letter-spacing: 0em;
-    font-size: 70px;
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-weight: 300;
-    font-style: normal;
+.p2 {
+  color: #2f2f2f;
+  text-transform: capitalize;
+  line-height: 1.1;
+  letter-spacing: 0em;
+  font-size: 70px;
+  text-align: left;
+  font-family: "Playfair Display";
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-.p2-italics{
-    text-decoration: underline rgba(234, 219, 219, 1);
-    
+.p2-italics {
+  text-decoration: underline #eadbdb;
 }
-.p3{
-    color: rgba(47, 47, 47, 1);
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-    font-size: 1rem;
-    text-align: center;
-    font-family: 'Assistant';
-    font-weight: 300;
-    font-style: normal;
+.p3 {
+  color: #2f2f2f;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  font-size: 1rem;
+  text-align: left;
+  font-family: "Assistant";
+  font-weight: 300;
+  font-style: normal;
 }
- .btn-div{
+.btn-div {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.hero-btn {
+  background-color: #f3e8e8;
+  transition: background-color, border-color, 0.5s;
+  border: 1px solid #eadbdb;
+  border-radius: 50px;
+  letter-spacing: 0.12em;
+  font-size: 14px;
+  font-family: "Syne";
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px 15px;
+  text-transform: uppercase;
+}
+
+.hero-btn:hover {
+  background-color: #eadbdb;
+  opacity: 0.8;
+  color: #e7c9c9;
+}
+
+.hero-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
     display: flex;
+    flex-direction: column;
+  }
+
+  .btn-div {
     justify-content: center;
     align-items: center;
-    
+  }
 
- }
-.hero-btn{
-    border-color: rgba(231, 201, 201, 1);
-    border-width: 0px;
-    background-color: rgba(243, 232, 232, 1);
-    transition-duration: 0.5s;
-    transition-property: background-color, border-color;
-    border-style: solid;
-    border-radius: 50px;
+  .p1 {
+    text-align: center;
+  }
+
+  .p2 {
+    text-align: center;
+  }
+
+  .p3 {
+    text-align: center;
+  }
+
+  .first-column {
+    order: 1;
+    margin: 40px 20px;
+  }
 }
-
-.hero-btnp{
-    letter-spacing: 0.12em;
-    font-size: 14px;
-    font-family: 'Syne';
-    font-weight: 500;
-    font-style: normal;
-    padding: 6px;
-    text-transform: uppercase;
-}
-
-.hero-btn:hover{
-    background-color: rgba(234, 219, 219, 0.8);
-}
-.hero-btnp:hover{
-color: rgba(231, 201, 201, 1);
-}  
-.hero-col2{
-    grid-area:1;
-    position: relative;
-}
-
-.hero-img{
-    display: flex;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    max-width: 100%;
-    height: auto;
-    
-
-}
-
-
-@media only screen and (min-width:768px) {
-    .hero-container{
-        grid-template-columns:65% 35%;
-    }
-
-    .hero-col1{
-      grid-area: 1; 
-      margin-top: 60px;  
-      margin-left: 100px;
-    }
-    
-    .btn-div{
-        justify-content: left;
-        align-items: left;
-    }
-    
-
-    .p1{
-        color: rgba(212, 167, 167, 1);
-        line-height: 1.7;
-        letter-spacing: 0.15em;
-        font-size: 17px;
-        text-align: left;
-        font-family: 'Syne';
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    .p2{
-        color: rgba(47, 47, 47, 1);
-        text-transform: capitalize;
-        line-height: 1.1;
-        letter-spacing: 0em;
-        font-size: 70px;
-        text-align: left;
-        font-family: 'Playfair Display';
-        font-weight: 300;
-        font-style: normal
-    }
-
-    .p3{
-        color: rgba(47, 47, 47, 1);
-        line-height: 1.9;
-        letter-spacing: 0.03em;
-        font-size: 16px;
-        text-align: left;
-        font-family: 'Assistant';
-        font-weight: 300;
-        font-style: normal;
-    }
-    
-
-    .hero-col2{
-        grid-area: 1;
-    }
-}
-
-

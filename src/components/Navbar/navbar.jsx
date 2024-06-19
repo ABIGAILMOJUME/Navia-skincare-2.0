@@ -1,41 +1,39 @@
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import './navbar.css'
-import logo from '../../assets/naviaskin.png'
-
+import "./navbar.css";
+import logo from "../../assets/naviaskin (1).svg";
 
 const NavBar = () => {
-    return ( 
+  return (
+    <>
+      <div className="navbar">
+        <div className="logo-cont">
+          <Link to="/">
+            <img src={logo} alt="NAVIASKINCARE" className="logo" />
+          </Link>
+        </div>
 
-        <>
-        <div className="navbar">
-        <Link to="/" className="logo"><img src={logo} alt="NAVIASKINCARE" /></Link>
+        <ul>
+          <li className="li">
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li className="li">
+            <NavLink to="/shop">Shop</NavLink>
+          </li>
+          <li className="li">
+            <NavLink to="/services">Services</NavLink>
+          </li>
+          <li className="li">
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
+        </ul>
 
-            
-            <ul>
-                <li className="li">
-                    <NavLink to="/about">About</NavLink>
-                </li>
-                <li className="li">
-                <NavLink to="/shop">Shop</NavLink>
-                </li>
-                <li className="li">
-                <NavLink to="/services">Services</NavLink>
-                </li>
-                <li className="li">
-                <NavLink to="/contact">Contact</NavLink>
-                </li>
-            </ul>
+        <Link to="/services">
+          <button className="nav-btn">BOOK ONLINE</button>
+        </Link>
+      </div>
+    </>
+  );
+};
 
-            <Link to ="/services">
-            <button className="nav-btn">
-               <p className="nav-btnp">BOOK ONLINE</p> 
-            </button>
-            </Link> 
-            
-            </div>
-        </>
-     );
-}
- 
 export default NavBar;
