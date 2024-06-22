@@ -9,6 +9,10 @@ import Services from './pages/Services';
 import Shop from './pages/Shop';
 import Hero from './components/Hero/Hero';
 import Marquee from './components/marquee/marquee';
+import ServicesMenu from './components/Servicesmenu/ServicesMenu';
+import Reviews from './components/Reviews/Reviews';
+import Products from './components/Products/Products';
+
 
 function App() {
   return (
@@ -17,6 +21,9 @@ function App() {
       <NavBar/>
       <Hero/>
       <Marquee/>
+      <ServicesMenu/>
+      <Reviews/>
+      <Products/>
       <Routes>
         <Route path='/about' element ={<About/>}/>
         <Route path='/contact' element ={<Contact/>}/>

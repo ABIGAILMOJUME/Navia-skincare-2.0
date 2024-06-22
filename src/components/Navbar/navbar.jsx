@@ -4,6 +4,7 @@ import "./navbar.css";
 import logo from "../../assets/naviaskin (1).svg";
 
 const NavBar = () => {
+  
   return (
     <>
       <div className="navbar">
@@ -31,6 +32,7 @@ const NavBar = () => {
         <Link to="/services">
           <button className="nav-btn">BOOK ONLINE</button>
         </Link>
+          
       </div>
     </>
   );

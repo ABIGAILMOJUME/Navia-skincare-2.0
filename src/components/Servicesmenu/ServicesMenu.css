@@ -1,0 +1,162 @@
+.services-menu-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 80%;
+  margin: 0 auto;
+   gap: 100px; 
+}
+.column-1 {
+  display: flex;
+
+}
+
+.vertical-text {
+  background-color: #d4a7a7;
+  writing-mode: vertical-lr;
+  color: #fcfbfa;
+  letter-spacing: 0.18em;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Syne";
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 22px;
+  order: 1;
+  height: 500px;
+}
+
+.services-image-container {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  order: 2;
+}
+
+.services-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top:40px;
+}
+
+h4 {
+  color: #d4a7a7;
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+  text-align: left;
+  font-family: "Syne";
+  font-weight: 500;
+  font-style: normal;
+  padding-bottom: 30px;
+  border-bottom: #d4a7a7 solid 1px;
+}
+
+.span {
+  display: flex;
+  color: #2f2f2f;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-style: normal;
+  transition-property: color 0.5s;
+  border-bottom: #d4a7a7 solid 1px;
+  padding: 40px 0;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.first{
+  padding-top: 0;
+}
+.last{
+  border-bottom: none;
+}
+
+.span:hover{
+    color: #d4a7a7;
+}
+
+
+
+@media screen and (max-width: 900px){
+  .vertical-text{
+    height: 426px;
+  }
+  .services-image-container{
+    height: 426px;
+    width: 250px;
+  }
+.column-2{
+  margin-top: 20px;
+}
+.span{
+  font-size: 25px;
+  padding-bottom: 20px;
+
+}
+ }
+
+@media screen and (max-width: 786px) {
+  .services-menu-container {
+    display: grid;
+    width: 100%;
+  }
+
+  .column-1 {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
+  .vertical-text {
+    order: 2;
+    writing-mode: horizontal-tb;
+    height: 30px;
+   
+  }
+  
+  h4{
+   padding-bottom: 0;
+   text-align: center;
+   justify-content: center;
+   font-size: 17px;
+   line-height: 2;
+  }
+
+  .services-image-container {
+    height: 480px;
+    width: 550px;
+    display: flex;
+    order: 1;
+  }
+  .column-2 {
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px;
+  }
+  .span{
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    padding: 0 50px;
+  }
+  .first{
+    padding-top: 0;
+  }
+}
+
+
+@media screen and (max-width:535px){
+    .services-image-container{
+        height: 480px;
+        width: 370px;
+    }
+}

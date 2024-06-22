@@ -57,6 +57,7 @@ li a:hover {
   color: #e7c9c9;
 }
 
+
 @media screen and (max-width: 882px) {
   .logo {
     width: 140px;
@@ -69,7 +70,14 @@ li a:hover {
 }
 
 @media screen and (max-width: 745px) {
-  .navbar {
+  .logo{
+    width: 250px;
+  }
+   .nav-btn {
     display: none;
   }
+
+  li{
+    display: none;
+  } 
 }
