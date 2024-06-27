@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import { PiArrowRightThin } from "react-icons/pi";
 import "./navbar.css";
 import logo from "../../assets/naviaskin (1).svg";
 
@@ -30,7 +31,7 @@ const NavBar = () => {
         </ul>
 
         <Link to="/services">
-          <button className="nav-btn">BOOK ONLINE</button>
+          <button className="nav-btn">BOOK ONLINE <PiArrowRightThin/></button>
         </Link>
           
       </div>

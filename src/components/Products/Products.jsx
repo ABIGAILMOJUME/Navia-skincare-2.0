@@ -16,13 +16,17 @@ const Products = () => {
 
       <div className="images-container">
         <div className="image-container">
-        <img src={faceserum} alt="faceserum" className="image" />
+        <img src={faceserum} alt="faceserum" className="image" 
+        />
+        <p className="image-paragraph">MX FACE SERUM</p>
         </div>
         <div className="image-container">
         <img src={lotion} alt="lotion" className="image"/>
+        <p className="image-paragraph">MX BODY LOTION</p>
         </div>
         <div className="image-container ">
         <img src={handcream} alt="handcream" className="image"/>
+        <p className="image-paragraph">MX BODY SCRUB</p>
         </div>
       </div>
 

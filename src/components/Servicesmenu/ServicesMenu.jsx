@@ -22,13 +22,13 @@ const ServicesMenu = () => {
         
     
       <div className="span">
-      <span >facial treatments </span>
+      <span >Chemical peels </span>
       <AiOutlinePlus className="icon"/>
       </div>
       
       
       <div className="last span">
-      <span >facial treatments </span>
+      <span >body treatments </span>
       <AiOutlinePlus className="icon"/>
       </div>
      

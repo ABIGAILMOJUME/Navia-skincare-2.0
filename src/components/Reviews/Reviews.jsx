@@ -1,5 +1,6 @@
 import review from "../../assets/Reviewimage.jpg";
 import { LiaStarSolid } from "react-icons/lia";
+import { PiArrowRightThin } from "react-icons/pi";
 import "./Reviews.css";
 
 const Reviews = () => {
@@ -28,7 +29,7 @@ const Reviews = () => {
             <LiaStarSolid className="star" />
             <LiaStarSolid className="star" />
           </div>
-          <p className="next-review-text">Next review </p>
+          <p className="next-review-text">Next review  <PiArrowRightThin /> </p>
         </div>
       </div>
     </>

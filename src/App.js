@@ -12,6 +12,10 @@ import Marquee from './components/marquee/marquee';
 import ServicesMenu from './components/Servicesmenu/ServicesMenu';
 import Reviews from './components/Reviews/Reviews';
 import Products from './components/Products/Products';
+import Intro from './components/Intro/Intro';
+import Specials from './components/Specials/Specials';
+import ParallaxImage from './components/ParallaxImage/ParallaxImage';
+
 
 
 function App() {
@@ -24,6 +28,11 @@ function App() {
       <ServicesMenu/>
       <Reviews/>
       <Products/>
+      <Intro/>
+      <Specials/>
+      <ParallaxImage/>
+
+
       <Routes>
         <Route path='/about' element ={<About/>}/>
         <Route path='/contact' element ={<Contact/>}/>

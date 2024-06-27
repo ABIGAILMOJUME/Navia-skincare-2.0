@@ -50,11 +50,13 @@ li a:hover {
   font-weight: 500;
   font-style: normal;
   padding: 6px;
+  align-items: center;
+  justify-content: baseline;
 }
 
 .nav-btn:hover {
   background-color: #eadbdb;
-  color: #e7c9c9;
+  color: #d4a7a7;
 }
 
 

@@ -80,6 +80,8 @@
     font-weight: 500;
     font-style: normal;
     margin:60px 70px;
+    transition: color 0.5s;
+   
 }
     
 .next-review-text:hover{

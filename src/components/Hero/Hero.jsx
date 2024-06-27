@@ -1,4 +1,5 @@
 import hero from "../../assets/heroimage.jpg";
+import { PiArrowRightThin } from "react-icons/pi";
 import "./Hero.css";
 
 const Hero = () => {
@@ -17,7 +18,7 @@ const Hero = () => {
             repellat dolore. Beatae, doloribus expedita?
           </p>
           <div className="btn-div">
-            <button className="hero-btn">Explore our services</button>
+            <button className="hero-btn">Explore our services <PiArrowRightThin/></button>
           </div>
         </div>
         <div className="hero-image-container">
