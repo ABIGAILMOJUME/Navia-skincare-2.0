@@ -13,10 +13,9 @@ h1 {
   font-size: 9.75rem;
   text-transform: uppercase;
   white-space: nowrap;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 0 1rem;
   animation: moving-marquee 70s linear infinite;
-  margin: 0;
+
 }
 
 @keyframes moving-marquee {

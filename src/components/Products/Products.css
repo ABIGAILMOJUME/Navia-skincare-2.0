@@ -1,9 +1,9 @@
 .products-container {
-  width: 85%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 7.5% ;
   margin-top: 100px;
- margin-bottom: 80px;
-
+ padding-bottom: 60px;
+ border-bottom: 1px solid  #eadbdb;
 }
 
 .products-title-text {

@@ -29,17 +29,18 @@ li a {
   font-weight: 500;
   font-style: normal;
   color: #2f2f2f;
-  transition: 0.5s, color, letter-spacing, ease;
+  transition:  color 0.5s ease;
 }
 
 li a:hover {
   color: #d4a7a7;
-  letter-spacing: 0.18rem;
+  transform: scale(1.1);
 }
 
 .nav-btn {
+  display: flex;
   background-color: #eadbdb;
-  border: solid #eadbdb;
+  border: 1px solid #eadbdb;
   border-radius: 50px;
   height: 3.25rem;
   width: 12rem;
@@ -51,7 +52,11 @@ li a:hover {
   font-style: normal;
   padding: 6px;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
+}
+
+.menu-icon {
+  display: none;
 }
 
 .nav-btn:hover {
@@ -71,15 +76,41 @@ li a:hover {
   }
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 768px) {
   .logo{
     width: 250px;
   }
    .nav-btn {
     display: none;
   }
-
-  li{
+  .nav-links {
     display: none;
-  } 
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    padding: 1rem;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  .menu-icon {
+    display: flex;
+    z-index: 1000;
+  }
+
+  .nav-btn-container {
+    display: none;
+  }
 }
+
+
+  

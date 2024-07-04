@@ -18,6 +18,7 @@ import ParallaxImage from './components/ParallaxImage/ParallaxImage';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -31,7 +32,7 @@ function App() {
       <Intro/>
       <Specials/>
       <ParallaxImage/>
-
+ 
 
       <Routes>
         <Route path='/about' element ={<About/>}/>
