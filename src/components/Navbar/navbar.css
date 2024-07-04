@@ -105,6 +105,8 @@ li a:hover {
   .menu-icon {
     display: flex;
     z-index: 1000;
+    color: #d4a7a7;
+    border: #d4a7a7;
   }
 
   .nav-btn-container {

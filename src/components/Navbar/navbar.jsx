@@ -23,6 +23,7 @@ const NavBar = () => {
   };
 
   return (
+    
     <nav className="navbar">
       <div className="logo-cont">
         <Link to="/">
@@ -32,7 +33,7 @@ const NavBar = () => {
 
       {isMobile && (
         <button className="menu-icon" onClick={toggleMenu}>
-          {isOpen ? <FaTimes size={20}/> : <FaBars size={20}/>}
+          {isOpen ? <FaTimes size={25}/> : <FaBars size={25}/>}
         </button>
       )}
 
