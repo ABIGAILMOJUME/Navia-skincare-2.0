@@ -205,3 +205,17 @@ u {
     font-size: 45px;
   }
 }
+
+@media screen and (max-width:430px) {
+ .intro-image-container{
+  width: 300px;
+ }
+ .intro-title-text{
+  font-size: 35px;
+}
+.intro-description-text {
+  text-align: center;
+  padding: 0;
+  font-size: 16px;
+}
+}

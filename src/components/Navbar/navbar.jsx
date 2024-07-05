@@ -23,7 +23,6 @@ const NavBar = () => {
   };
 
   return (
-    
     <nav className="navbar">
       <div className="logo-cont">
         <Link to="/">

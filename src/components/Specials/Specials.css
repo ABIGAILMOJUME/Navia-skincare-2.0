@@ -177,7 +177,19 @@
 }
 
 @media screen and (max-width:600px) {
+    .special-title-text{
+        font-size: 14px;
+    }
     .promo-paragraph{
         font-size: 30px;
     }
 }
+
+@media screen and (max-width:430px) {
+    .special-title-text{
+        font-size: 14px;
+    }
+   .special-subtitle-text{
+    font-size: 50px;
+   }
+   }

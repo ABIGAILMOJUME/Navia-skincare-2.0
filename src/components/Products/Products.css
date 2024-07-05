@@ -106,3 +106,12 @@ u {
     border-bottom: none;
   }
 }
+@media screen and (max-width:430px) {
+ .products-title-text{
+  padding: 0 ;
+ }
+ .description-text{
+  padding: 0;
+ }
+}
+

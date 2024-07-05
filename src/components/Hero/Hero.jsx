@@ -18,7 +18,7 @@ const Hero = () => {
             repellat dolore. Beatae, doloribus expedita?
           </p>
           <div className="btn-div">
-            <button className="hero-btn">Explore our services <PiArrowRightThin/></button>
+            <button className="hero-btn">Explore our services <span><PiArrowRightThin/></span></button>
           </div>
         </div>
         <div className="hero-image-container">

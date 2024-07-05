@@ -98,3 +98,14 @@
     text-align: center;
   }
 }
+@media screen and (max-width:430px) {
+  .title-text {
+    padding: 0 50px;
+  }
+  
+  .testimonial-text {
+    
+    padding: 0 50px;
+  }
+}
+

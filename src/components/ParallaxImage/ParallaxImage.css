@@ -100,4 +100,8 @@
         font-size: 40px;
     }
 }
-  
+@media screen and (max-width:430px) {
+    .parallax-subtitle-text{
+        font-size: 30px;
+    }
+   }
