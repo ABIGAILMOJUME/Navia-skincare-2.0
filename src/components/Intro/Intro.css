@@ -219,5 +219,8 @@ u {
   padding: 0;
   font-size: 16px;
 }
+.intro-stamp-container{
+ right: -45px;
+}
 }
 

@@ -187,9 +187,15 @@
 
 @media screen and (max-width:430px) {
     .special-title-text{
-        font-size: 14px;
+        font-size: 12px;
     }
    .special-subtitle-text{
     font-size: 50px;
+   }
+   .promo-div{
+    width: 270px;
+   }
+   .promo-paragraph{
+    font-size: 25px;
    }
    }
