@@ -207,6 +207,7 @@ u {
 }
 
 @media screen and (max-width:430px) {
+ 
  .intro-image-container{
   width: 300px;
  }
@@ -219,3 +220,4 @@ u {
   font-size: 16px;
 }
 }
+
