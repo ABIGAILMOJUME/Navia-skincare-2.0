@@ -1,112 +1,111 @@
-.parallax-image-container{
-    height: 500px;
-    width: 100%;
-    background-image: url(../../assets/parallax.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.parallax-image-container {
+  height: 500px;
+  width: 100%;
+  background-image: url(../../assets/parallax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.parallax-image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.parallax-title-text{
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FCFBFA;
-    line-height: 1.7;
-    letter-spacing: 0.15em;
-    font-size: 17px;
-    text-align: center;
-    font-family: "Syne";
-    font-weight: 500;
+.parallax-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.parallax-subtitle-text{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 40px 0;
-    color: #FCFBFA;
-    text-transform: capitalize;
-    line-height: 1.2;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-weight: 400;
+.parallax-title-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fcfbfa;
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Syne";
+  font-weight: 500;
 }
 
+.parallax-subtitle-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 40px 0;
+  color: #fcfbfa;
+  text-transform: capitalize;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 400;
+}
 
-
-.parallax-button-container{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
+.parallax-button-container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 25px;
+  width: 100%;
+  padding: 20px;
+margin-top: 20px;
 }
 
-.parallax-button{
- 
-    background-color: #f3e8e8;
-    transition: all 0.5s ease;
-    border: 1px solid #eadbdb;
-    border-radius: 50px;
-    color: #2f2f2f;
-    letter-spacing: 0.12em;
-    font-size: 14px;
-    font-family: "Syne";
-    font-weight: 500;
-    font-style: normal;
-    padding: 20px 15px;
-    text-transform: uppercase;
-    width: 300px;
-    margin: 10px;
+.parallax-button {
+  background-color: #f3e8e8;
+  transition: all 0.5s ease;
+  border: 1px solid #eadbdb;
+  border-radius: 50px;
+  color: #2f2f2f;
+  letter-spacing: 0.12em;
+  font-size: 14px;
+  font-family: "Syne";
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.one{
-    background-color: white;
+.one {
+  background-color: white;
 }
-.one:hover{
-    color: #D4A7A7;
-} 
+.one:hover {
+  color: #d4a7a7;
+}
 
+.two:hover {
+  color: #d4a7a7;
+}
 
-.two:hover{
-    color: #D4A7A7;
-
-} 
-
-@media screen and (max-width:1024px) {
- .parallax-subtitle-text{
+@media screen and (max-width: 1024px) {
+  .parallax-subtitle-text {
     font-size: 50px;
- }   
+  }
 }
 
-@media screen and (max-width:768px) {
-    .parallax-button-container{
-        flex-direction: column-reverse;
-    }
-    .parallax-subtitle-text{
-        font-size: 40px;
-    }
+@media screen and (max-width: 768px) {
+  .parallax-button-container {
+    flex-direction: column-reverse;
+  }
+  .parallax-subtitle-text {
+    font-size: 40px;
+  }
 }
-@media screen and (max-width:430px) {
-    .parallax-subtitle-text{
-        font-size: 30px;
-    }
+@media screen and (max-width: 430px) {
+  .parallax-subtitle-text {
+    font-size: 30px;
+  }
 
-    .parallax-button-container{
-        margin-right: 45px;
-    }
-   }
+  .parallax-button-container {
+    margin-right: 45px;
+  }
+}
