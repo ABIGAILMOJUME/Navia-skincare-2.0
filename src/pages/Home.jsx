@@ -6,6 +6,7 @@ import Products from '../components/Products/Products'
 import Intro from '../components/Intro/Intro'
 import Specials from '../components/Specials/Specials'
 import ParallaxImage from '../components/ParallaxImage/ParallaxImage'
+import Footer from '../components/Footer/Footer'
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
     <Intro/>
     <Specials/>
     <ParallaxImage/>
+    <Footer/>
     </div>
   )
 }

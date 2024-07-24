@@ -1,2 +1,175 @@
+ .footer-section {
+  display: flex;
+  justify-content: space-between;
+}
 
-  
+.explore-visit-container {
+  display: flex;
+  gap: 50px;
+}
+
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+}
+.explore-heading {
+  text-transform: capitalize;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 200;
+  font-style: normal;
+  transition: 0.5s color ease;
+  margin: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eadbdb;
+}
+.explore-heading:hover {
+  color: #eadbdb;
+}
+
+.explore-para {
+  margin: 0;
+  padding: 5px 0;
+  line-height: 1.9;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-family: "Assistant";
+  font-weight: 300;
+  font-style: normal;
+}
+.ul-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.explore-container ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.explore-container li {
+  padding: 10px;
+  color: black;
+  font-family: 'Syne';
+  font-size: 14px;
+}
+
+.explore-button{
+    background-color: #F3E8E8;
+    border: 1px solid #eadbdb;
+    border-radius: 24px;
+    padding: 15px 12px;
+    font-family: 'Syne';
+}
+.visit-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 30px 0;
+}
+
+@media screen and (min-width: 748px) {
+  .visit-container-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .footer-section {
+    display: grid;
+    grid-template-rows: 40% 60%;
+  }
+  .explore-container {
+    display: none;
+  }
+  .visit-container {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 100px;
+  }
+  .ten-off-container {
+    margin-top: 30px;
+  }
+  .ten-off-button-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.ten-off-container {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.ten-off-button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ten-off-button-1 {
+  width: 200px;
+  border: solid 1px rgba(234, 219, 219, 1);
+  background-color: rgba(252, 251, 250, 1);
+  transition: all 0.5s ease;
+  color: black;
+  border-radius: 24px;
+  padding: 15px;
+  font-size: 13px;
+  font-family: 'Syne';
+}
+
+.ten-off-button-1:hover{
+    background-color: rgba(212, 167, 167, 1);
+    color: #eadbdb;
+}
+
+.ten-off-button-2 {
+    width: 200px;
+    border: solid 1px  rgba(212, 167, 167, 1);
+    background-color: rgba(212, 167, 167, 1);
+    transition: all 0.5s ease-in;
+    color:#eadbdb;
+    border-radius: 24px;
+    padding: 15px;
+    font-size: 13px;
+    font-family: 'Syne';
+  }
+
+  .ten-off-button-2:hover{
+    background-color:rgba(252, 251, 250, 1);;
+    color: black
+}
+
+.ten-off-heading-div {
+  padding: 0 50px;
+}
+
+.ten-off-heading {
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 200;
+  font-style: normal;
+  transition: 0.5s color ease;
+}
+
+.ten-off-heading:hover {
+  color: #eadbdb;
+}
+
+.join-mail {
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Assistant";
+}
