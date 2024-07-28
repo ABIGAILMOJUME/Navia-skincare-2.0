@@ -1,5 +1,8 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,16 +22,23 @@ const Footer = () => {
               <Link to='/contact'> <li>CONTACT</li></Link>
             </ul>
           </div>
-          <button className="explore-button">BOOK ONLINE</button>
+          <div  className="explore-container-button">
+          <button className="visit-explore-button">BOOK ONLINE</button>
+          </div>
         </div>
         <div className="visit-container">
           <h2 className="explore-heading">Visit Us</h2>
-          <p className="explore-para italics"><i>32 Yorkville Ave, Portland Oregon, 152942</i></p>
+          <p className="explore-para-italics"><i>32 Yorkville Ave, Portland Oregon, 152942</i></p>
           <p className="explore-para">Tuesday-Friday: 10am to 8pm</p>
           <p className="explore-para">Saturday: 10am to 5pm</p>
           <p className="explore-para">Sunday & Monday: Closed</p>
           <div className="visit-container-button">
             <button className="explore-button">BOOK ONLINE</button>
+          </div>
+          <div className="explore-icon-container">
+            <span className="explore-icon"><FaSquareInstagram/></span>
+            <span className="explore-icon"><FaTiktok/></span>
+            <span className="explore-icon"><FaFacebookF/></span>
           </div>
         </div>
       </div>

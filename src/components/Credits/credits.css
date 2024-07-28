@@ -1,0 +1,15 @@
+.credits-div{
+    background-color:#D4A7A7;
+    height: 60px;
+    color: #FCFBFA;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Syne';
+    font-weight: 500;
+    font-style: normal;
+}
+.credits-div-p{
+    margin: 0;
+    padding: 18px;
+}

@@ -7,6 +7,7 @@ import Intro from '../components/Intro/Intro'
 import Specials from '../components/Specials/Specials'
 import ParallaxImage from '../components/ParallaxImage/ParallaxImage'
 import Footer from '../components/Footer/Footer'
+import PhotoGrid from '../components/PhotoGrid/photogrid'
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Home = () => {
     <Specials/>
     <ParallaxImage/>
     <Footer/>
+    <PhotoGrid/>
     </div>
   )
 }
