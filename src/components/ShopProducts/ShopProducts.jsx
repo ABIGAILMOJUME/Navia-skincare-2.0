@@ -2,7 +2,6 @@ import "./ShopProducts.css";
 import faceserum from "../../assets/facialcream.jpg";
 import handcream from "../../assets/handcream.jpg";
 import lotion from "../../assets/lotion.jpg";
-import { PiArrowRightThin } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
 const ShopProducts = () => {
@@ -33,9 +32,11 @@ const ShopProducts = () => {
       </div>
 
       <div className="ShopProduct-button-container">
+        <Link to='/shop'>
         <button className="ShopProduct-button">
-          shop all products <PiArrowRightThin />
+          shop all products
         </button>
+        </Link>
       </div>
     </div>
   );

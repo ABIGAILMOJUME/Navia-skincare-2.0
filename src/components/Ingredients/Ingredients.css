@@ -134,7 +134,7 @@
         padding: 10px 40px 20px;
     }
     .ingredients-h1-text{
-        font-size: 40px;
+        font-size: 38px;
         text-align: center;
         line-height: 1.2;
         letter-spacing: 0.07em;
@@ -152,7 +152,17 @@
 @media (max-width:350px) {
    
     .ingredients-h1-text{
-        font-size: 35px;
-        
+        font-size: 32px;
     }
+    .ingredients-p-text{
+        padding: 15px;
+        font-size: 15px;
+        line-height: 1.7;
+        text-align: justify;
+        justify-content: center;
+    }
+    .ingredients-h3-text{
+        font-size: 13px;
+    }
+    
 }

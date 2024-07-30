@@ -100,9 +100,28 @@
     font-size: 40px;
   }
 }
+@media screen and (max-width: 500px) {
+  .parallax-subtitle-text {
+    font-size: 33px;
+  }
+
+  .parallax-button-container {
+    margin-right: 45px;
+  }
+}
 @media screen and (max-width: 430px) {
   .parallax-subtitle-text {
     font-size: 30px;
+  }
+
+  .parallax-button-container {
+    margin-right: 45px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .parallax-subtitle-text {
+    font-size: 27px;
   }
 
   .parallax-button-container {

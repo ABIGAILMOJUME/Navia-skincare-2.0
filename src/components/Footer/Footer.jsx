@@ -23,7 +23,9 @@ const Footer = () => {
             </ul>
           </div>
           <div  className="explore-container-button">
-          <button className="visit-explore-button">BOOK ONLINE</button>
+            <Link to='/bookings'>
+            <button className="visit-explore-button">BOOK ONLINE</button>
+            </Link>
           </div>
         </div>
         <div className="visit-container">
@@ -33,7 +35,9 @@ const Footer = () => {
           <p className="explore-para">Saturday: 10am to 5pm</p>
           <p className="explore-para">Sunday & Monday: Closed</p>
           <div className="visit-container-button">
+            <Link to='/bookings'>
             <button className="explore-button">BOOK ONLINE</button>
+            </Link>
           </div>
           <div className="explore-icon-container">
             <span className="explore-icon"><FaSquareInstagram/></span>
@@ -48,8 +52,14 @@ const Footer = () => {
                 </div>
             <h6 className="join-mail">Join our email list for updates, exclusive discounts and more!</h6>
             <div className="ten-off-button-container">
-                <button className="ten-off-button-1">EMAIL ADDRESS</button>
-                <button className="ten-off-button-2">SIGN UP</button>
+              <Link to='/services'>
+              <button className="ten-off-button-1">EMAIL ADDRESS</button>
+              </Link>
+              <Link to='/bookings'>
+              <button className="ten-off-button-2">SIGN UP</button>
+              </Link>
+               
+               
             </div>
             </div>
     </div>

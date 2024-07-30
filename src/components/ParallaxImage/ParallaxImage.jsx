@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ParallaxImage.css";
 const ParallaxImage = () => {
   return (
@@ -10,8 +11,12 @@ const ParallaxImage = () => {
           Ready To Fall In Love With Your Skin?
         </p>
             <div className="parallax-button-container">
-          <button className="parallax-button one">EXPLORE SERVICES</button>
-          <button className="parallax-button two">BOOK AN APPOINTMENT</button>    
+              <Link to='/services'>
+              <button className="parallax-button one">EXPLORE SERVICES</button>
+              </Link>
+              <Link to='/bookings'>
+              <button className="parallax-button two">BOOK AN APPOINTMENT</button> 
+              </Link>
             </div>
         
       </div>

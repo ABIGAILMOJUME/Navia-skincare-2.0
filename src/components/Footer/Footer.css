@@ -348,3 +348,9 @@ justify-content: center;
     margin-top: 50px;
   }
 }
+
+@media screen and (max-width: 500px) {
+.visit-container{
+  margin-top: 0;
+}
+}

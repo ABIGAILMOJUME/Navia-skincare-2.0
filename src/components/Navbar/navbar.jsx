@@ -51,7 +51,7 @@ const NavBar = () => {
         </li>
       </ul>
 
-      <Link to="/services" className="nav-btn-container">
+      <Link to="/bookings" className="nav-btn-container">
         <button className="nav-btn">BOOK ONLINE <span><PiArrowRightThin/></span></button>
       </Link>
     </nav>
