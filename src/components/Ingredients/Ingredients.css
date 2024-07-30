@@ -1,0 +1,158 @@
+
+
+.ingredients-main-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.ingredients-text-container{
+    background-color:rgba(243, 232, 232, 0.5);
+    padding: 100px 100px 60px;
+}
+
+.ingredients-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ingredients-h1-text{
+    line-height: 1;
+    letter-spacing: 0.02em;
+    font-size: 70px;
+    font-family: 'Playfair Display';
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0;
+}
+.ingredients-p-text{
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Assistant';
+    font-weight: 300;
+    font-style: normal;
+    padding: 25px 0 ;
+}
+.ingredients-h3-text{
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Syne';
+    font-weight: 500;
+
+}
+
+.h3-text-icon{
+    font-size: 25px;
+    color: #E7C9C9;
+}
+@media (max-width:1024px) {
+    .ingredients-text-container{
+        padding:  50px 80px;
+    }
+    .ingredients-h1-text{
+        font-size: 55px;
+        text-align: center;
+        line-height: 1.2;
+        letter-spacing: 0.07em;
+    }
+    .ingredients-p-text{
+        padding: 15px;
+        font-size: 18px;
+        line-height: 1.7;
+        text-align: justify;
+        justify-content: center;
+    }
+    .ingredients-h3-text{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:840px) {
+    .ingredients-text-container{
+        padding:  50px 80px;
+    }
+    .ingredients-h1-text{
+        font-size: 45px;
+        text-align: center;
+        line-height: 1.2;
+        letter-spacing: 0.07em;
+    }
+    .ingredients-p-text{
+        padding: 15px;
+        font-size: 18px;
+        line-height: 1.7;
+        text-align: justify;
+        justify-content: center;
+    }
+    .ingredients-h3-text{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:748px) {
+    .ingredients-main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .ingredients-h1-text{
+        color: #d4a7a7;
+    }
+}
+
+@media (max-width:600px) {
+    .ingredients-text-container{
+        padding: 10px 50px 20px;
+    }
+    .ingredients-h1-text{
+        font-size: 50px;
+        text-align: center;
+        line-height: 1.2;
+        letter-spacing: 0.07em;
+    }
+    .ingredients-p-text{
+        padding: 15px;
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: justify;
+        justify-content: center;
+    }
+    .ingredients-h3-text{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:430px) {
+    .ingredients-text-container{
+        padding: 10px 40px 20px;
+    }
+    .ingredients-h1-text{
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.2;
+        letter-spacing: 0.07em;
+    }
+    .ingredients-p-text{
+        padding: 15px;
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: justify;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width:350px) {
+   
+    .ingredients-h1-text{
+        font-size: 35px;
+        
+    }
+}

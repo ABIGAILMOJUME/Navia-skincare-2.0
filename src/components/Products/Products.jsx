@@ -32,7 +32,6 @@ const Products = () => {
 
       <div className="button-container">
             <button className="products-button">shop all products  <PiArrowRightThin /></button>
-           
           </div>
     </div>
   );
