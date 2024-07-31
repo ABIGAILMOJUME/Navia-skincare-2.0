@@ -1,0 +1,136 @@
+.booking-policies-main-container {
+  background-color: rgba(243, 232, 232, 0.5);
+  min-height: 550px;
+}
+
+.booking-policies-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid #d4a7a7;
+  padding: 30px;
+}
+
+.booking-policies-title-text{
+    display: flex;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.booking-policies-sub-text{
+    display: flex;
+    color: #d4a7a7;
+    line-height: 1.7;
+    letter-spacing: 0.15em;
+    font-size: 15px;
+    font-family: 'Syne';
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.booking-policies-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px 7.5% 0;
+    gap: 30px;
+}
+
+
+.booking-policies-p{
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Assistant';
+    font-weight: 300;
+}
+
+.booking-policies-h3{
+    display: flex;
+    line-height: 1.7;
+    letter-spacing: 0.15em;
+    font-size: 15px;
+    font-family: 'Syne';
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+@media (max-width:1024px){
+    .booking-policies-p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:900px){
+    .booking-policies-p{
+        font-size: 13px;
+    }
+}
+
+
+
+@media (max-width:748px){
+    .booking-policies-main-container {
+        height: auto;
+    }
+    .booking-policies-container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .booking-policies-heading-container{
+        flex-direction: column;
+        gap: 0;
+    }
+       .booking-policies-p{
+            font-size: 16px;
+    }
+    .booking-policies-title-text{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .booking-policies-h3{
+        font-size: 20px;
+    }
+    .booking-policies-sub-text{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:500px){
+    .booking-policies-p{
+        text-align: justify;
+    }
+    .booking-policies-sub-text{
+        font-size: 15px;
+    }
+    .booking-policies-h3{
+        font-size: 17px;
+    }
+    .booking-policies-container{
+        padding-bottom: 40px;
+    }
+
+    @media (max-width:400px){
+        .booking-policies-title-text{
+            font-size: 45px;
+         margin-bottom: 10px;
+        }
+    }
+
+    @media (max-width:330px){
+        .booking-policies-title-text{
+            font-size: 35px;
+        }
+    }
+
+}

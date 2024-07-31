@@ -1,0 +1,84 @@
+.bookings-parallax-image-container {
+  height: 600px;
+  width: 100%;
+  background-image: url(../../assets/parallax2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bookings-parallax-title-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fcfbfa;
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Syne";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.bookings-parallax-subtitle-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fcfbfa;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 400;
+}
+
+.bookings-parallax-icon{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fcfbfa;
+    font-size: 65px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .bookings-parallax-image-container{
+        height: 550px;
+    }
+  .bookings-parallax-subtitle-text {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+    
+  .bookings-parallax-subtitle-text {
+    font-size: 55px;
+    top: 45%;
+  }
+  .bookings-parallax-icon{
+    top: 85%;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+    .bookings-parallax-title-text{
+        top: 20%;
+    }
+  .bookings-parallax-subtitle-text {
+    font-size: 45px;
+    top: 50%;
+  }
+  .bookings-parallax-icon{
+    top: 90%;
+}
+
+}
