@@ -31,7 +31,7 @@ const Products = () => {
       </div>
 
       <div className="button-container">
-            <button className="products-button">shop all products  <PiArrowRightThin /></button>
+            <button className="products-button">shop all products</button>
           </div>
     </div>
   );
