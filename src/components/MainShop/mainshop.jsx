@@ -15,37 +15,37 @@ const MainShop = () => {
         <div className="mainshop-image-container-first">
             <Link to='/singleproduct'>
             <img src={lotion} alt="mainshop-img" className="mainshop-image" />
-            <h3 className="mainshop-h3-text">product name <span>$40</span></h3>
+            <h3 className="mainshop-h3-text">product name <span className="mainshop-span">$40</span></h3>
             </Link>
         </div>
         <div className="mainshop-image-container">
             <Link to='/singleproduct'>
             <img src={deodorant} alt="mainshop-img" className="mainshop-image" />
-            <h3 className="mainshop-h3-text">product name <span>$40</span></h3>
+            <h3 className="mainshop-h3-text">product name <span className="mainshop-span">$40</span></h3>
             </Link>
         </div>
         <div className="mainshop-image-container">
         <Link to='/singleproduct'>
         <img src={misolo} alt="mainshop-img" className="mainshop-image" />
-        <h3 className="mainshop-h3-text">product name <span>$40</span></h3>
+        <h3 className="mainshop-h3-text">product name <span className="mainshop-span">$40</span></h3>
             </Link>
         </div>
         <div className="mainshop-image-container-lower">
         <Link to='/singleproduct'>
         <img src={mascarilla} alt="mainshop-img" className='mainshop-image' />
-        <h3 className="mainshop-h3-text">product name <span>$40</span></h3>
+        <h3 className="mainshop-h3-text">product name <span className="mainshop-span">$40</span></h3>
             </Link>
         </div>
         <div className="mainshop-image-container-lower">
         <Link to='/singleproduct'>
         <img src={tubecream} alt="mainshop-img" className='mainshop-image' />
-        <h3 className="mainshop-h3-text">product name <span>$40</span></h3>
+        <h3 className="mainshop-h3-text">product name <span className="mainshop-span">$40</span></h3>
             </Link>
         </div>
         <div className="mainshop-image-container-lower">
         <Link to='/singleproduct'>
         <img src={yours} alt="mainshop-img" className='mainshop-image' />
-        <h3 className="mainshop-h3-text">product name <span>$40</span></h3>
+        <h3 className="mainshop-h3-text">product name <span className="mainshop-span">$40</span></h3>
             </Link>
         </div>
       </div>

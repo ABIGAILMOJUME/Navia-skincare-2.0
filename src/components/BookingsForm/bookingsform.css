@@ -1,0 +1,100 @@
+.bookings-form-container {
+  display: flex;
+  justify-content: center;
+  padding: 7.5% 15%;
+  flex-direction: column;
+  height: 600px;
+  border-bottom: 1px solid  rgba(234, 219, 219, 1);
+  margin-bottom: 30px;
+}
+
+.bookings-form-h1 {
+  color: rgba(234, 219, 219, 1);
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: 0em;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 400;
+ 
+}
+
+.bookings-form-p {
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Syne";
+  font-weight: 500;
+  margin: 40px 0 100px ;
+}
+
+.bookings-form-h3{
+    color: rgba(234, 219, 219, 1);
+    text-transform: capitalize;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+
+@media (max-width:780px){
+    .bookings-form-container{
+        height: auto;
+        border-bottom: 1.5px solid rgba(234, 219, 219, 1);
+    }
+    .bookings-form-h1{
+         font-size: 70px;
+    }
+    .bookings-form-p{
+        font-size: 25px;
+    }
+    .bookings-form-h3{
+        font-size: 45px;
+    }
+}
+
+@media (max-width:768px){
+.bookings-form-container{
+    margin-bottom: 0;
+}
+}
+
+@media (max-width:600px){
+    .bookings-form-h1{
+         font-size: 70px;
+    }
+    .bookings-form-p{
+        font-size: 25px;
+    }
+    .bookings-form-h3{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px){
+    .bookings-form-h1{
+         font-size: 65px;
+    }
+    .bookings-form-p{
+        font-size: 15px;
+        margin: 40px 0 80px;
+    }
+    }
+    .bookings-form-h3{
+        font-size: 30px;
+    }
+
+
+@media (max-width:400px){
+    .bookings-form-h1{
+         font-size: 50px;
+    }
+    .bookings-form-p{
+        font-size: 15px;
+        margin: 40px 0 80px;
+    }
+    .bookings-form-h3{
+        font-size: 35px;
+    }
+}

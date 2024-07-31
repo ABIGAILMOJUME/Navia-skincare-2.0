@@ -142,6 +142,7 @@ justify-content: center;
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .ten-off-button-1 {
@@ -202,6 +203,7 @@ justify-content: center;
   font-weight: 300;
   font-size: 12px;
   font-family: "Assistant";
+  padding: 5px 0;
 }
 
 
