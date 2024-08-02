@@ -77,7 +77,7 @@
     background-color: #F3E8E8;
     border: 1px solid #eadbdb;
     border-radius: 24px;
-    padding: 15px 12px;
+    padding: 10px 15px;
     font-family: 'Syne';
     transition: all 0.5s ease-in;
     width: 200px;
@@ -90,7 +90,7 @@
   background-color: #F3E8E8;
   border: 1px solid #eadbdb;
   border-radius: 24px;
-  padding: 15px 12px;
+  padding: 10px 12px;
   font-family: 'Syne';
   transition: all 0.5s ease-in;
   width: 200px;

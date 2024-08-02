@@ -52,6 +52,7 @@
 @media screen and (max-width: 800px) {
     .bookings-parallax-image-container{
         height: 550px;
+        z-index: -1000;
     }
   .bookings-parallax-subtitle-text {
     font-size: 80px;
