@@ -76,6 +76,7 @@ u {
   margin: 50px 0;
 }
 .ShopProduct-button {
+  display: flex;
   background-color: #f3e8e8;
   transition: color 0.5s ease;
   border: 1px solid #eadbdb;
@@ -89,12 +90,17 @@ u {
   text-transform: uppercase;
   width: 300px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .ShopProduct-button:hover {
   opacity: 0.7;
 }
-
+.shopproduct-btn-icon{
+  font-size: 18px;
+}
 @media screen and (max-width: 768px) {
   .ShopProduct-images-main-container {
     display: flex;

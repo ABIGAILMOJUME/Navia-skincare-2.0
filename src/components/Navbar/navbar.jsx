@@ -52,7 +52,7 @@ const NavBar = () => {
       </ul>
 
       <Link to="/bookings" className="nav-btn-container">
-        <button className="nav-btn">BOOK ONLINE <span><PiArrowRightThin/></span></button>
+        <button className="nav-btn">BOOK ONLINE <span className="navbtn-icon"><PiArrowRightThin/></span></button>
       </Link>
     </nav>
   );

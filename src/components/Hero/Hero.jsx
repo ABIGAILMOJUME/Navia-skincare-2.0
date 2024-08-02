@@ -1,6 +1,7 @@
 import hero from "../../assets/heroimage.jpg";
 import { PiArrowRightThin } from "react-icons/pi";
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -18,7 +19,9 @@ const Hero = () => {
             repellat dolore. Beatae, doloribus expedita?
           </p>
           <div className="btn-div">
-            <button className="hero-btn">Explore our services <span><PiArrowRightThin/></span></button>
+            <Link to='/services'>
+            <button className="hero-btn">Explore our services <span className="hero-icon"><PiArrowRightThin/></span></button>
+            </Link>
           </div>
         </div>
         <div className="hero-image-container">

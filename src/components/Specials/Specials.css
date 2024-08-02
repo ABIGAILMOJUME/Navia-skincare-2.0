@@ -116,8 +116,11 @@
   align-items: center;
   margin: 50px 0;
 }
-
+.specials-icon{
+    font-size: 18px;
+}
 .specials-button{
+    display: flex;
     background-color: #f3e8e8;
   border: 1px solid #eadbdb;
   border-radius: 50px;
@@ -126,9 +129,16 @@
   font-family: "Syne";
   font-weight: 500;
   font-style: normal;
-  padding: 20px 15px;
+  padding:18px 15px;
   text-transform: uppercase;
   width: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.specials-button:hover{
+    color: #d4a7a7;
 }
 
 

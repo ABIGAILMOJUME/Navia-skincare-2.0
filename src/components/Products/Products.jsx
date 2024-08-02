@@ -3,6 +3,7 @@ import faceserum from "../../assets/facialcream.jpg";
 import handcream from "../../assets/handcream.jpg";
 import lotion from "../../assets/lotion.jpg";
 import { PiArrowRightThin } from "react-icons/pi";
+import { Link } from "react-router-dom";
 const Products = () => {
   return (
     <div className="products-container">
@@ -16,22 +17,29 @@ const Products = () => {
 
       <div className="images-container">
         <div className="image-container">
-        <img src={faceserum} alt="faceserum" className="image" 
-        />
+          <Link to='/singleproduct'>
+          <img src={faceserum} alt="faceserum" className="image"/>
+          </Link>
         <p className="image-paragraph">MX FACE SERUM</p>
         </div>
         <div className="image-container">
+        <Link to='/singleproduct'>
         <img src={lotion} alt="lotion" className="image"/>
+          </Link>
         <p className="image-paragraph">MX BODY LOTION</p>
         </div>
         <div className="image-container ">
+        <Link to='/singleproduct'>
         <img src={handcream} alt="handcream" className="image"/>
+          </Link>
         <p className="image-paragraph">MX BODY SCRUB</p>
         </div>
       </div>
 
       <div className="button-container">
-            <button className="products-button">shop all products</button>
+        <Link to='/services'>
+        <button className="hero-btn">Explore our services <span className="hero-icon"><PiArrowRightThin/></span></button>
+        </Link>
           </div>
     </div>
   );

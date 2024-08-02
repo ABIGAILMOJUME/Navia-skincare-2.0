@@ -61,17 +61,22 @@
   font-family: "Syne";
   font-weight: 500;
   font-style: normal;
-  padding: 20px 15px;
+  padding: 18px 15px;
   text-transform: uppercase;
   justify-content: center;
-  justify-content: center;
+  align-items: center;
   margin-top: 40px;
+  gap: 5px;
 }
 
 .hero-btn:hover {
   background-color: #eadbdb;
   opacity: 0.8;
   color: #d4a7a7;
+}
+
+.hero-icon{
+font-size: 18px;
 }
 
 .hero-image-container {

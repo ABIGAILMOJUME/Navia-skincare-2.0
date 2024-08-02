@@ -1,6 +1,8 @@
 import "./ServicesMenu.css";
 import afro from "../../assets/afro woman.jpg";
 import { AiOutlinePlus } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
 
 const ServicesMenu = () => {
   return (
@@ -16,19 +18,25 @@ const ServicesMenu = () => {
       <h4>LET'S ENHANCE YOUR NATURAL BEAUTY</h4>
       
        <div className=" first span">
-      <span >facial treatments </span>
+        <Link to='/services'>
+        <span >facial treatments </span>
+        </Link>
       <AiOutlinePlus className="icon"/>
       </div>
         
     
       <div className="span">
-      <span >Chemical peels </span>
+        <Link to='/services'>
+        <span >Chemical peels </span>
+        </Link>
       <AiOutlinePlus className="icon"/>
       </div>
       
       
       <div className="last span">
+      <Link to='/services'>
       <span >body treatments </span>
+        </Link>
       <AiOutlinePlus className="icon"/>
       </div>
      

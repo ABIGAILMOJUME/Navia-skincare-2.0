@@ -2,6 +2,7 @@ import './Intro.css'
 import jessie from '../../assets/intro.jpg'
 import stamp from '../../assets/download (1).svg'
 import { PiArrowRightThin } from "react-icons/pi";
+import { Link } from 'react-router-dom';
 
 const Intro = () => {
     return ( 
@@ -11,7 +12,9 @@ const Intro = () => {
                 <p className='intro-subtitle-text'>PORTLAND SKINCARE + FACIAL EXPERT</p>
                 <p className='intro-description-text'>Write a short introduction about yourself here. Everyone needs a friend. Friends are the most valuable things in the world. When things happen - enjoy them. They're little gifts. This is probably the greatest thing to happen in my life - to be able to share this with you. Everyone needs a friend. Friends are the most valuable things in the world.</p>
                 <div className='intro-button-container'>
-                <button className='intro-button'> GET TO KNOW ME <PiArrowRightThin/></button>
+                    <Link to='/about'>
+                    <button className='intro-button'> GET TO KNOW ME <span className='intro-icon'><PiArrowRightThin/></span></button>
+                    </Link>
                 </div>
             </div>
             <div className="intro-image-container">

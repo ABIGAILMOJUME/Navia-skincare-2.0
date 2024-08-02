@@ -53,8 +53,11 @@ li a:hover {
   padding: 6px;
   align-items: center;
   justify-content: center;
+  gap:5px;
 }
-
+.navbtn-icon{
+  font-size: 18px;
+}
 .menu-icon {
   display: none;
 }

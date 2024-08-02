@@ -62,6 +62,11 @@ u {
   text-transform: uppercase;
   width: 300px;
  margin-top: 70px;
+ gap:5px;
+}
+
+.intro-icon{
+  font-size: 18px;
 }
 
 .intro-button:hover {

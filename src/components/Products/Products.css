@@ -76,6 +76,7 @@ u {
   margin: 50px 0;
 }
 .products-button {
+  display: flex;
   background-color: #f3e8e8;
   transition: color 0.5s ease;
   border: 1px solid #eadbdb;
@@ -85,9 +86,16 @@ u {
   font-family: "Syne";
   font-weight: 500;
   font-style: normal;
-  padding: 20px 15px;
+  padding:18px 15px;
   text-transform: uppercase;
   width: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.products-icon{
+  font-size: 18px;
 }
 
 .products-button:hover {
