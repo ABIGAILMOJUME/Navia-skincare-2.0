@@ -81,7 +81,7 @@ li a:hover {
 
 @media screen and (max-width: 768px) {
   .logo{
-    width: 250px;
+    width: 200px;
   }
    .nav-btn {
     display: none;
@@ -117,6 +117,11 @@ li a:hover {
     display: none;
   }
 }
+@media(max-width:500px){
+  .logo {
+    width: 180px;
+  }
+} 
 
 
   
