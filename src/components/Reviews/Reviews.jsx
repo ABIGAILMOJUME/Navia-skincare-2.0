@@ -29,7 +29,7 @@ const Reviews = () => {
             <LiaStarSolid className="star" />
             <LiaStarSolid className="star" />
           </div>
-          <p className="next-review-text">Next review  <PiArrowRightThin /> </p>
+          <p className="next-review-text">Next review<span className="next-review-icon"><PiArrowRightThin /></span> </p>
         </div>
       </div>
     </>

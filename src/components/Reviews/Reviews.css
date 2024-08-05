@@ -70,7 +70,9 @@
 }
 
 .next-review-text{
-    text-align: end;
+  display: flex;
+   justify-content: end;
+   align-items: center;
     color: #2F2F2F;
     text-transform: uppercase;
     line-height: 1;
@@ -81,7 +83,11 @@
     font-style: normal;
     margin:60px 70px;
     transition: color 0.5s;
+    gap: 8px;
    
+}
+.next-review-icon{
+  font-size: 18px;
 }
     
 .next-review-text:hover{
@@ -95,7 +101,7 @@
   }
 
   .next-review-text{
-    text-align: center;
+    justify-content: center;
   }
 }
 @media screen and (max-width:430px) {

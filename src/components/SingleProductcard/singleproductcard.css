@@ -1,0 +1,43 @@
+
+.singleproduct-image-container{
+    display:flex;
+    flex-direction: column;
+    width: 325px;
+    height: 325px;
+    padding: 0 16px;
+}
+
+.sp-price{
+    color: #d4a7a7;
+    font-size: 15px;
+   font-family:'Syne' ;
+   letter-spacing: 0.1em;
+   font-weight: 500;
+}
+.sp-name{
+    font-size: 15px;
+    font-family:'Syne' ;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+@media(max-width:912px) {
+    .singleproduct-image-container{
+        width: auto;
+    }
+}
+@media(max-width:768px) {
+    .singleproduct-image-container{
+        min-width: auto;
+        padding: 0 40px;
+  
+    }
+}
+
+@media(max-width:500px) {
+    .singleproduct-image-container{
+        width: auto;
+        padding: 0 24px;
+    }
+}
+
