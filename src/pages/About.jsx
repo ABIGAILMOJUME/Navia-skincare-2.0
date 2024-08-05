@@ -63,7 +63,7 @@ const About = () => {
                   A PORTLAND SKINCARE EXPERT WHO AIMS FOR FOR A TRULY CUSTOMIZED
                   EXPERIENCE
                 </p>
-                <p className="p-6 leading-[30.4px] text-start lg:p-0 text-[13px]  font-[Assistant] tracking-[0.5px] 2xl:text-[16px] md:text-[12px]  text-[#2f2f2f]">
+                <p className="p-6 leading-[30.4px] text-start lg:p-0 text-[13px]  font-[Assistant] tracking-[0.5px] 2xl:text-[16px] md:text-[11px]  text-[#2f2f2f]">
                   Write an introduction of your business here and how you can
                   solve their problem. Everyone needs a friend. Friends are the
                   most valuable things in the world. When things happen - enjoy
@@ -256,7 +256,7 @@ const About = () => {
                 </div>
               </div>
               <div className="ShopProduct-button-container">
-                <Link to="/shop">
+                <Link to="/bookings">
                   <button className="ShopProduct-button">
                     BOOK AN APPOINTMENT
                     <span className="shopproduct-btn-icon">
