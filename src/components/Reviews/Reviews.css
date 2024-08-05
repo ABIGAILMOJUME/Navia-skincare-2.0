@@ -25,12 +25,12 @@
 
 .title-text {
   text-transform: capitalize;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   line-height: 1.2;
-  font-family: "Playfair Display";
+  font-family: "Merchant Thin";
   font-weight: 300;
-  padding: 0 100px;
+  padding: 15px 100px 0;
 }
 
 .testimonial-text {

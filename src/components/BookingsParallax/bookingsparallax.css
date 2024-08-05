@@ -26,7 +26,7 @@
 
 .bookings-parallax-subtitle-text {
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fcfbfa;
@@ -34,7 +34,7 @@
   line-height: 1.1;
   font-size: 100px;
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Merchant Thin";
   font-weight: 400;
 }
 

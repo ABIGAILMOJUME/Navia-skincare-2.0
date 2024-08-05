@@ -12,10 +12,10 @@
 
 .intro-title-text {
   color: #2f2f2f;
-  font-size: 80px;
+  font-size: 82px;
   text-transform: capitalize;
   line-height: 1;
-  font-family: "Playfair Display";
+  font-family: "Merchant Thin";
   font-weight: 400;
   margin: 0;
   white-space: nowrap;
@@ -101,7 +101,7 @@ u {
 
 @media screen and (max-width:1200px){
 .intro-title-text{
-  font-size: 68px;
+  font-size: 70px;
 }
 .intro-stamp-container{
   right: -50px;
@@ -114,7 +114,7 @@ u {
 
 @media screen and (max-width:1110px){
   .intro-title-text{
-    font-size: 63px;
+    font-size: 65px;
   }
   .intro-stamp-container{
     right: -75px;
@@ -123,7 +123,7 @@ u {
 
   @media screen and (max-width:980px){
     .intro-title-text{
-      font-size: 59px;
+      font-size: 60px;
     }
     .intro-stamp-container{
       right: -105px;
@@ -132,7 +132,7 @@ u {
 
     @media screen and (max-width:910px){
       .intro-title-text{
-        font-size: 52px;
+        font-size: 54px;
       }
       .intro-stamp-container{
         right: -135px;
@@ -147,7 +147,7 @@ u {
 
       @media screen and (max-width:830px){
         .intro-title-text{
-          font-size: 48px;
+          font-size: 50px;
         }
         .intro-stamp-container{
           right: -155px;
@@ -171,7 +171,7 @@ u {
   
   .intro-title-text {
     text-align: center;
-    font-size: 50px;
+    font-size: 53px;
   }
   .intro-subtitle-text {
     text-align: center;
