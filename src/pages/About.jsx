@@ -20,33 +20,6 @@ const About = () => {
       <AboutHero />
       <div className=" ">
         <div className="bg-[#F3e8f8] ">
-          {/* <div class="grid grid-col-1   md:grid-cols-2 xl:grid-cols-3 bg-[#F9f3f3]  w-auto justify-items-center  ">
-            <div className=" col-span-1 xl:col-span-2   2xl:col-span-2 md:col-span-1 e">
-              <img
-                src={aboutUsImg}
-                className=" w-[1000px]   xl:w-[900px] 2xl:w-[1220px] xl:h-[500px] 2xl:h-[678px]  2xl:me-[200px] md:-ms-14 pe-0   2xl:left-11  lg:pe-[100px]  object-cover"
-                alt=""
-              />
-            </div>
-            <div className="  px-4 md:px-0 col-span-1  md:h-[700px] xl:left-[800px] xl:absolute  2xl:left-[1200px] 2xl:absolute  2xl:w-auto  lg:absolute lg:left-[450px] lg:w-[500px] md:col-span-1   ">
-              <div className=" flex 2xl:w-[600px]  gap-4 md:gap-[20px] justify-center p-5 md:mt-[90px] flex-col ">
-                <div>
-                  <p className="font-[Syne] text-[#D4A7A7]  tracking-[2.3px] text-[15px] font-[500] ">
-                    OREGON'S TOP MEDICAL AESTHETICIAN CLINIC
-                  </p>
-                </div>
-
-                <h1 className=" text-2xl md:text-5xl  2xl:text-[70px] pt-5 2xl:leading-[77px] 2xl:p-0 text-[#2f2f2f] hero-text ">
-                  Elevate Your Skincare Routine With Our Result-Driven Approach
-                </h1>
-                <p className="text-[13px] font-[Assistant] font-thin  md:text-[14px] leading-[27px] 2xl:text-[16px] 2xl:w-[500px] translate-[0.5px] text-[#2f2f2f]">
-                  Write an introduction of your business here. Everyone needs a
-                  friend. Friends are the most valuable things in the world.
-                  When things happen - enjoy them.
-                </p>
-              </div>
-            </div>
-          </div> */}
 
           {/* JESSIE JOHNSON */}
           <div className="bg-[#fcfbfa]">
@@ -58,7 +31,7 @@ const About = () => {
                 >
                   <div className="">
                     <h1 className="text-3xl  md:text-5xl 2xl:text-[70px] 2xl:leading-[77px] hero-text lg:text-[50px] 2xl:text-6xl lg:md:p-0   p-4">
-                      Hi Gorgeous! I'm Jessie Johnson
+                      Hi <u className="about-underlined">Gorgeous!</u> I'm Jessie Johnson
                     </h1>
                   </div>
 

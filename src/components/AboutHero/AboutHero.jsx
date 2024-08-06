@@ -4,7 +4,7 @@ import AboutHeroImg from "../../assets/intro.jpg";
 const AboutHero = () => {
     return (
       <>
-        <div className="bg-[#f9f3f3] relative">
+        <div className="bg-[#f9f3f3] relative  z-[-1000]">
           <div className="flex  flex-col md:flex-row  justify-around ">
             <div className="w-full ">
               <img

@@ -1,0 +1,131 @@
+.contact-form-container {
+  padding: 100px 15% 0;
+  background-color: rgba(249, 244, 244, 1);
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contactform-para {
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Syne";
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.contactform-h1 {
+  color: rgba(234, 219, 219, 1);
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Merchant Thin";
+  margin: 0;
+}
+.first-input-container {
+  display: flex;
+  gap: 30px;
+}
+.first-input {
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.04);
+  font-family: "Syne";
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+  background-color: rgba(252, 251, 250, 1);
+}
+
+.other-inputs {
+  height: 60px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.04);
+  font-family: "Syne";
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+  background-color: rgba(252, 251, 250, 1);
+}
+
+.text-area {
+  height: 300px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.04);
+  font-family: "Syne";
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+  background-color: rgba(252, 251, 250, 1);
+}
+
+.contactform-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+}
+.contactform-btn {
+  display: flex;
+  background-color: #f3e8e8;
+  transition: color 0.5s ease;
+  border: 1px solid #eadbdb;
+  border-radius: 50px;
+  letter-spacing: 0.12em;
+  font-size: 14px;
+  font-family: "Syne";
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  width: 300px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.contactform-btn-icon {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 930px) {
+  .contactform-h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form-container {
+    padding: 50px 10% 0;
+  }
+  .first-input-container {
+    flex-direction: column;
+  }
+  .first-input {
+    width: 100%;
+  }
+  .contactform-h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactform-h1 {
+    font-size: 50px;
+  }
+  .contactform-para{
+    font-size: 17px;
+  }
+}

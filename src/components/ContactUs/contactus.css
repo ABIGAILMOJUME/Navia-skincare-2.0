@@ -1,0 +1,386 @@
+.contact-parallax-image {
+  height: 600px;
+  width: 100%;
+  background-image: url(../../assets/afro\ woman.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  position: relative;
+}
+
+.contact-text-container {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-text-container-2 {
+  position: absolute;
+  top: 70%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+}
+
+.contact-heading {
+  text-transform: capitalize;
+  color: #fcfbfa;
+  line-height: 1.1;
+  letter-spacing: 0em;
+  font-size: 100px;
+  text-align: left;
+  font-family: "Merchant Thin";
+  font-weight: 400;
+}
+
+.Contact-question {
+  letter-spacing: 0.15em;
+  font-size: 17px;
+  text-align: left;
+  font-family: "Syne";
+  color: #fcfbfa;
+  line-height: 1.7;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.appointment-info {
+  position: absolute;
+  top: 50%;
+  left: 66%;
+  border-top: 1px solid rgba(249, 244, 244, 1);
+  border-left: 1px solid rgba(249, 244, 244, 1);
+  border-right: 1px solid rgba(249, 244, 244, 1);
+  background-color: rgba(249, 244, 244, 1);
+  height: 300px;
+  width: 350px;
+  padding: 40px;
+  text-align: center;
+}
+
+.appointment-heading {
+  text-transform: capitalize;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Merchant Thin";
+  font-weight: 200;
+  font-style: normal;
+  transition: 0.5s color ease;
+  margin: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eadbdb;
+}
+
+.appointment-heading:hover {
+  color: #eadbdb;
+}
+
+.appointment-para {
+  margin: 0;
+  padding: 5px 0;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  font-family: "Assistant";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.appointment-para-italics {
+  margin-bottom: 5px;
+  padding: 5px 0;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  font-family: "Assistant";
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media screen and (min-width: 769px) {
+  .appointment-info-two {
+    display: none;
+  }
+}
+@media screen and (min-width: 2560px){
+    
+    .contact-text-container {
+        top: 65%;
+        left: 15%;
+      }
+    
+      .contact-text-container-2 {
+        top: 75%;
+        left: 20%;
+      }
+
+      .contact-heading {
+        font-size: 180px;
+      }
+      .Contact-question {
+        font-size: 20px;
+      }
+
+      .appointment-info {
+        top: 51%;
+        left: 75%;
+        height: 300px;
+        width: 500px;
+        padding: 35px;
+      }
+      .appointment-heading{
+        font-size: 40px;
+      }
+      .appointment-para{
+        font-size: 16px;
+      }
+      .appointment-para-italics{
+        font-size: 16px;
+      }
+}
+@media screen and (max-width: 1282px){
+    .contact-text-container {
+        top: 68%;
+        left: 21%;
+      }
+    
+      .contact-text-container-2 {
+        position: absolute;
+        top: 75%;
+        left: 22%;
+      }
+}
+
+@media screen and (max-width: 1090px) {
+  .appointment-info {
+    top: 50%;
+    left: 65%;
+    height: 300px;
+    width: 300px;
+    padding: 35px;
+   
+  }
+
+  .contact-text-container {
+    top: 60%;
+    left: 23%;
+  }
+
+  .contact-text-container-2 {
+    position: absolute;
+    top: 70%;
+    left: 24%;
+  }
+
+  .contact-heading {
+    font-size: 90px;
+  }
+  .Contact-question {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+    .appointment-info {
+      top: 63.6%;
+      left: 67%;
+      height: 220px;
+      width: 250px;
+      padding: 35px 0 0;
+     
+    }
+
+    .appointment-heading{
+        font-size: 20px;
+    }
+    .appointment-para-italics{
+        font-size: 11px;
+    }
+  .appointment-para{
+    font-size: 11px;
+  }
+    .contact-text-container {
+      top: 75%;
+      left: 23%;
+    }
+  
+    .contact-text-container-2 {
+      top: 80%;
+      left: 24%;
+    }
+  
+    .contact-heading {
+      font-size: 72px;
+    }
+    .Contact-question {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .appointment-info {
+      top: 63.6%;
+      left: 64%;
+      height: 220px;
+      width: 250px;
+      padding: 35px 0 0;
+     
+    }
+
+    .contact-text-container {
+      top: 73%;
+      left: 23%;
+    }
+  
+    .contact-text-container-2 {
+      position: absolute;
+      top: 80%;
+      left: 24%;
+    }
+  
+    .contact-heading {
+      font-size: 72px;
+    }
+    .Contact-question {
+      font-size: 12px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  .appointment-info {
+    display: none;
+  }
+  .contact-parallax-image {
+    z-index: -1000;
+    background-attachment: scroll;
+  }
+  .contact-text-container {
+    top: 70%;
+    left: 35%;
+  }
+  .contact-text-container-2 {
+    top: 75%;
+    left: 25%;
+  }
+  .Contact-question {
+    font-size: 17px;
+    text-align: centre;
+  }
+  .contact-heading {
+    font-size: 55px;
+    text-align: centre;
+  }
+  .appointment-info-two {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(249, 244, 244, 1);
+  }
+  .appointment-heading-two {
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Merchant Thin";
+    font-weight: 200;
+    font-style: normal;
+    transition: 0.5s color ease;
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eadbdb;
+  }
+
+  .appointment-para-italics-two {
+    margin-bottom: 5px;
+    padding: 5px 0;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+    font-size: 17px;
+    font-family: "Assistant";
+    font-weight: 300;
+    font-style: normal;
+  }
+  .appointment-para-two {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+    font-size: 17px;
+    font-family: "Assistant";
+    font-weight: 300;
+    font-style: normal;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact-text-container {
+    top: 70%;
+    left: 39%;
+  }
+  .contact-text-container-2 {
+    top: 77%;
+    left: 28%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .contact-text-container-2 {
+    top: 77%;
+    left: 28%;
+  }
+
+  .contact-heading {
+    font-size: 50px;
+    text-align: centre;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-text-container {
+    top: 70%;
+    left: 40%;
+  }
+  .contact-text-container-2 {
+    top: 77%;
+    left: 35%;
+  }
+  .contact-heading {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-text-container {
+    top: 70%;
+    left: 40%;
+  }
+  .contact-text-container-2 {
+    top: 79%;
+    left: 36%;
+  }
+  .contact-heading {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .appointment-heading-two {
+    font-size: 30px;
+  }
+  .contact-text-container-2 {
+    top: 78%;
+    left: 39%;
+  }
+
+  .contact-heading {
+    font-size: 40px;
+  }
+}
+
+
+

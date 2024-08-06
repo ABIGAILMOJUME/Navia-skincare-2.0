@@ -11,10 +11,13 @@ a{
    text-decoration: none;
 }
 
+
 .hero-text{
    font-family: "Merchant Thin";
 }
-
+.about-underlined{
+   text-decoration: 1px soild  rgb(243, 232, 232);
+}
 
 img{
    vertical-align: middle;
