@@ -1,0 +1,360 @@
+.services-parallaximage-container {
+  height: 600px;
+  width: 100%;
+  background-image: url(../../assets/Serviceshero.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.services-parallax-div-2 {
+  padding: 7.5%;
+  background-color: rgba(252, 251, 250, 1);
+}
+
+.services-parallax-title-text {
+  position: absolute;
+  top: 30%;
+  left: 26.5%;
+  transform: translate(-50%, -50%);
+  color: #fcfbfa;
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-size: 70px;
+  text-align: left;
+  font-family: "Merchant Thin";
+  font-weight: 300;
+}
+
+.services-parallax-title-text-2 {
+  color: black;
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-size: 60px;
+  text-align: left;
+  font-family: "Merchant Thin";
+  font-weight: 300;
+}
+
+.services-parallax-subtitle-text {
+  position: absolute;
+  top: 47%;
+  left: 27.3%;
+  transform: translate(-50%, -50%);
+  color: #fcfbfa;
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 17px;
+  text-align: left;
+  font-family: "Syne";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.services-parallax-subtitle-text-2 {
+  color: #d4a7a7;
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 17px;
+  text-align: left;
+  font-family: "Syne";
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.services-parallax-para-text {
+  position: absolute;
+  top: 59%;
+  left: 23.5%;
+  transform: translate(-50%, -50%);
+  color: #fcfbfa;
+  line-height: 1.2;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Assistant";
+  font-weight: 300;
+}
+
+.services-parallax-para-text-2 {
+  color: black;
+  line-height: 1.2;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Assistant";
+  font-weight: 300;
+}
+
+.services-parallax-btn-container {
+  position: absolute;
+  top: 64%;
+  left: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.services-parallax-btn {
+  display: flex;
+  background-color: rgba(252, 251, 250, 1);
+  transition: color 0.5s ease;
+  border: 1px solid #eadbdb;
+  border-radius: 50px;
+  letter-spacing: 0.12em;
+  font-size: 14px;
+  font-family: "Syne";
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  width: 300px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s ease;
+}
+
+.services-parallax-btn:hover {
+  color: #f3e8e8;
+}
+
+.services-parallax-icon {
+  font-size: 18px;
+}
+
+.services-parallax-btn-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.services-parallax-btn-2 {
+  display: flex;
+  background-color: #eadbdb;
+  transition: color 0.5s ease;
+  border: 1px solid #eadbdb;
+  border-radius: 50px;
+  letter-spacing: 0.12em;
+  font-size: 14px;
+  font-family: "Syne";
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  width: 300px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s ease;
+}
+
+.services-parallax-btn-2:hover {
+  color: #d4a7a7;
+}
+
+
+@media screen and (min-width: 769px) {
+  .services-parallax-div-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1500px) {
+    .services-parallax-btn-container {
+      left: 8%;
+    }
+  }
+
+@media screen and (max-width: 1300px) {
+    .services-parallax-btn-container {
+      left: 5.5%;
+    }
+  }
+  @media screen and (max-width: 1130px) {
+    .services-parallax-btn-container {
+      left: 4%;
+    }
+   
+  }
+@media screen and (max-width: 1032px) {
+  .services-parallax-btn-container {
+    left: 8%;
+  }
+  .services-parallax-para-text {
+    left: 27%;
+    font-size: 14px;
+  }
+  .services-parallax-title-text {
+    left: 29%;
+    font-size: 60px;
+  }
+  .services-parallax-subtitle-text {
+    left: 31%;
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 930px) {
+  .services-parallax-btn-container {
+    left: 6%;
+  }
+  .services-parallax-para-text {
+    left: 27%;
+  }
+  .services-parallax-title-text {
+    left: 31%;
+  }
+  .services-parallax-subtitle-text {
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+    .services-parallax-btn-container {
+      left: 7%;
+    }
+    .services-parallax-para-text {
+      left: 30.5%;
+    }
+    .services-parallax-title-text {
+      left: 34%;
+    }
+    .services-parallax-subtitle-text {
+      left: 36%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+      .services-parallax-btn-container {
+        left: 6%;
+      }
+      .services-parallax-para-text {
+        left: 30%;
+      }
+      .services-parallax-title-text {
+        left: 33%;
+      
+      }
+      .services-parallax-subtitle-text {
+        left: 35%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+        .services-parallaximage-container {
+          background-attachment: scroll;
+          z-index: -1000;
+        }
+        .services-parallax-btn-container {
+          display: none;
+        }
+        .services-parallax-para-text {
+          display: none;
+        }
+        .services-parallax-title-text {
+          display: none;
+        }
+        .services-parallax-subtitle-text {
+          display: none;
+        }
+        .services-parallax-div-2 {
+          padding: 12%;
+        }
+        .services-parallax-title-text-2 {
+          font-size: 70px;
+        }
+        .services-parallax-para-text-2 {
+          font-size: 20px;
+        }
+      
+        .services-parallax-subtitle-text-2 {
+          font-size: 23px;
+        }
+        .services-parallax-btn-container-2{
+          justify-content: left;
+        }
+        .services-parallax-btn-2{
+          width: 350px;
+          font-size: 17px;
+          padding: 18px;
+        }
+      }
+      
+  
+
+@media screen and (max-width: 650px) {
+    .services-parallax-div-2 {
+        padding: 7.5%;
+      }
+      .services-parallax-title-text-2 {
+        font-size: 60px;
+      }
+      .services-parallax-para-text-2 {
+        font-size: 17px;
+      }
+    
+      .services-parallax-subtitle-text-2 {
+        font-size: 20px;
+      }
+      .services-parallax-btn-2{
+        width: 300px;
+        font-size: 15px;
+        padding: 18px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+  .services-parallax-div-2 {
+    padding: 7.5%;
+  }
+  .services-parallax-title-text-2 {
+    font-size: 50px;
+  }
+  .services-parallax-para-text-2 {
+    font-size: 16px;
+  }
+
+  .services-parallax-subtitle-text-2 {
+    font-size: 17px;
+  }
+    .services-parallax-btn-2{
+    width: 300px;
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .services-parallax-div-2 {
+      padding: 7.5%;
+    }
+    .services-parallax-title-text-2 {
+      font-size: 35px;
+    }
+    .services-parallax-para-text-2 {
+      font-size: 16px;
+    }
+  
+    .services-parallax-subtitle-text-2 {
+      font-size: 15px;
+    }
+      .services-parallax-btn-2{
+      width: 300px;
+      font-size: 12px;
+      padding: 15px ;
+    }
+  }
+
+  
+@media screen and (max-width: 350px) {
+  .services-parallax-btn-2{
+    width: 270px;
+    font-size: 12px;
+    padding: 15px ;
+  }
+}
+  

@@ -1,7 +1,7 @@
 import "./contactgrid.css";
 import imageone from "../../assets/parallax2.jpg";
 import imagetwo from "../../assets/specials.jpg";
-import imagethree from "../../assets/lotion.jpg";
+import imagethree from "../../assets/glycolicacid.jpg";
 import imagefour from "../../assets/packages2.jpg";
 import imagefive from "../../assets/afro woman.jpg";
 import { PiArrowRightThin } from "react-icons/pi";
@@ -18,24 +18,34 @@ const Contactgrid = () => {
       </div>
       <div className="contact-grid-images">
         <div className="contactgrid-image-container">
+          <Link to='/services'>
           <img src={imageone} alt="img-1" className="contactgrid-image" />
           <h3 className="contact-image-name">consults</h3>
+          </Link>
         </div>
         <div className="contactgrid-image-container">
-          <img src={imagetwo} alt="img-2" className="contactgrid-image" />
-          <h3 className="contact-image-name">facials</h3>
+        <Link to='/services'>
+        <img src={imagetwo} alt="img-2" className="contactgrid-image" />
+        <h3 className="contact-image-name">facials</h3>
+          </Link>
         </div>
         <div className="contactgrid-image-container">
-          <img src={imagethree} alt="img-3" className="contactgrid-image" />
-          <h3 className="contact-image-name">peels</h3>
+        <Link to='/services'>
+        <img src={imagethree} alt="img-3" className="contactgrid-image" />
+        <h3 className="contact-image-name">peels</h3>
+          </Link>
         </div>
         <div className="contactgrid-image-container">
-          <img src={imagefour} alt="img-4" className="contactgrid-image" />
-          <h3 className="contact-image-name">body</h3>
+        <Link to='/services'>
+        <img src={imagefour} alt="img-4" className="contactgrid-image" />
+        <h3 className="contact-image-name">body</h3>
+          </Link>
         </div>
         <div className="contactgrid-image-container-five">
-          <img src={imagefive} alt="img-5" className="contactgrid-image-five" />
-          <h3 className="contact-image-name">fillers</h3>
+        <Link to='/services'>
+        <img src={imagefive} alt="img-5" className="contactgrid-image-five" />
+        <h3 className="contact-image-name">fillers</h3>
+          </Link>
         </div>
       </div>
       <div className="contact-grid-btn-2-container">

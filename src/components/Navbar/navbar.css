@@ -117,11 +117,13 @@ li a:hover {
     display: none;
   }
 }
-@media(max-width:500px){
+@media(max-width:400px){
   .logo {
-    width: 180px;
+    width: 160px;
   }
 } 
+
+
 
 
   

@@ -1,0 +1,333 @@
+.experience-container{
+    background-color: rgba(243, 232, 232, 0.5);
+    padding: 7.5% 10% ;
+}
+
+.experience-main-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    position: relative;
+    gap: 10px;
+}
+
+.experience-image-container {
+    width: 387px;
+    height: 483px;
+  }
+  
+.experience-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.experience-stamp-container{
+    position: absolute;
+    top: -60px;
+    left: -35px;
+  }
+  .experience-stamp {
+    width: 150px;
+    height: 180px;
+    font-size: 40px;
+    font-family: "Syne";
+  }
+
+  .experience-title-text {
+    color: #d4a7a7;
+    line-height: 1.7;
+    letter-spacing: 0.15em;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Syne";
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .experience-subtitle-text {
+    color: #2f2f2f;
+    font-size: 75px;
+    text-transform: capitalize;
+    text-align: left;
+    line-height: 1;
+    font-family: "Merchant Thin";
+    font-weight: 400;
+    margin: 20px 0;
+  }
+  u {
+    text-decoration: underline #eadbdb;
+  }
+
+  .experience-description-text  {
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Assistant";
+    font-weight: 300;
+    font-style: normal;
+    margin: 10px 0 ;
+  }
+  
+  .experience-description-text-2{
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Assistant";
+    font-weight: 300;
+    font-style: normal;
+    margin: 10px 0  ;
+  }
+  
+
+  @media(max-width:1300px) {
+    .experience-main-container{
+        gap: 40px;
+    }
+    .experience-container{
+        padding: 7.5% 5%;
+       }
+  }
+
+
+  @media(max-width:1032px) {
+    .experience-container{
+        padding: 7.5% 6%;
+       }
+    .experience-image-container {
+        width: 340px;
+      }
+      .experience-title-text{
+        font-size: 15px;
+      }
+      .experience-subtitle-text{
+        font-size: 65px;
+      }
+      .experience-description-text{
+        font-size: 14px;
+      }
+      .experience-description-text-2{
+        font-size: 14px;
+      }
+   }
+
+   @media(max-width:930px) {
+    .experience-image-container {
+        width: 300px;
+        height: 400px;
+      }
+   }
+
+   @media(max-width:840px) {
+    .experience-image-container {
+        width: 300px;
+      }
+      .experience-container{
+        padding: 7.5% 5%;
+       }
+      .experience-title-text{
+        font-size: 13px;
+      }
+      .experience-subtitle-text{
+        font-size: 55px;
+      }
+      .experience-description-text{
+        font-size: 13px;
+      }
+      .experience-description-text-2{
+        font-size: 13px;
+      }
+   }
+   @media(max-width:768px){
+    .experience-main-container{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .experience-image-container {
+       width: 550px;
+        height:500px;
+        margin: 0 auto;
+      }
+      
+      .experience-title-text {
+        text-align: center;
+        font-size: 20px;
+      }
+      .experience-subtitle-text {
+        text-align: center;
+        margin-top: 30px;
+        font-size:  63px;
+      }
+      .experience-description-text {
+        text-align: center;
+        padding: 0 50px;
+        font-size: 16px;
+      }
+      .experience-description-text-2{
+        text-align: center;
+        padding: 0 50px;
+        font-size: 16px;
+      }
+      .experience-stamp-container{
+        top: -60px;
+        left: 0px;
+      }
+   }
+
+   @media(max-width:650px){
+    .experience-image-container {
+        width: 500px;
+         height:500px;
+         margin: 0 auto;
+       }
+      .experience-stamp-container{
+        top: -60px;
+        left: -27px;
+      }
+      .experience-subtitle-text {
+        text-align: center;
+        margin-top: 30px;
+        font-size:  53px;
+      }
+      .experience-description-text {
+        text-align: center;
+        padding: 0 30px;
+        font-size: 16px;
+      }
+      .experience-description-text-2{
+        text-align: center;
+        padding: 0 30px;
+        font-size: 16px;
+      }
+   }
+
+   @media(max-width:576px){
+    .experience-image-container {
+        width: 450px;
+         height:500px;
+         margin: 0 auto;
+       }
+      .experience-stamp-container{
+        top: -50px;
+        left: -20px;
+      }
+      
+      .experience-description-text {
+        text-align: center;
+        padding: 0 20px;
+        font-size: 14px;
+      }
+      .experience-description-text-2{
+        text-align: center;
+        padding: 0 20px;
+        font-size: 14px;
+      }
+   }
+
+   @media(max-width:492px){
+    .experience-image-container {
+        width: 400px;
+         height:500px;
+         margin: 0 auto;
+       }
+    
+      .experience-description-text {
+        text-align: center;
+        padding: 0 15px;
+        font-size: 13.5px;
+      }
+      .experience-description-text-2{
+        text-align: center;
+        padding: 0 15px;
+        font-size: 14px;
+      }
+      .experience-title-text {
+        text-align: center;
+        font-size: 17px;
+      }
+      .experience-stamp{
+        width: 100px;
+      }
+      .experience-stamp-container{
+        top: -65px;
+        left: -20px;
+      }
+   }
+
+   @media(max-width:450px){
+    .experience-image-container {
+        width: 380px;
+         height:500px;
+         margin: 0 auto;
+       }
+     
+      .experience-description-text {
+        text-align: center;
+        padding: 0 5px;
+        font-size: 12px;
+      }
+      .experience-description-text-2{
+        text-align: center;
+        padding: 0 5px;
+        font-size: 12px;
+      }
+      .experience-title-text {
+        text-align: center;
+        font-size: 17px;
+      }
+     
+   }
+
+   @media(max-width:400px){
+    .experience-image-container {
+        width: 320px;
+         height:500px;
+         margin: 0 auto;
+       }
+     
+      .experience-description-text {
+        text-align: center;
+        padding: 0 ;
+        font-size: 9.5px;
+      }
+      .experience-description-text-2{
+        text-align: center;
+        padding: 0 ;
+        font-size: 9.5px;
+      }
+      .experience-subtitle-text {
+        text-align: center;
+        font-size: 45px;
+      }
+    
+   }
+
+   @media(max-width:350px){
+    .experience-image-container {
+        width: 270px;
+         height:500px;
+         margin: 0 auto;
+       }
+     
+      .experience-description-text {
+        text-align: center;
+        padding: 0 ;
+        font-size: 9.5px;
+      }
+      .experience-description-text-2{
+        text-align: center;
+        padding: 0 ;
+        font-size: 9.5px;
+      }
+      .experience-subtitle-text {
+        text-align: center;
+        font-size: 40px;
+      }
+      .experience-stamp-container{
+        top: -65px;
+        left: -16px;
+      }
+     
+   }
