@@ -80,7 +80,32 @@
     margin: 10px 0  ;
   }
   
-
+  @media(min-width:2560px){
+   
+.experience-image-container{
+  width: 700px;
+  height: 820px;
+}
+.experience-title-text{
+  font-size: 30px;
+  letter-spacing: 0.25em;
+}
+.experience-subtitle-text{
+font-size: 140px;
+margin: 50px 0 30px;
+}
+.experience-description-text{
+font-size: 28px;
+text-align: justify;
+letter-spacing: 0.15em;
+}
+.experience-description-text-2{
+  font-size: 28px;
+  text-align: justify;
+  margin: 30px 0;
+  letter-spacing: 0.15em;
+}
+  }
   @media(max-width:1300px) {
     .experience-main-container{
         gap: 40px;
@@ -256,7 +281,7 @@
       }
    }
 
-   @media(max-width:450px){
+   @media(max-width:460px){
     .experience-image-container {
         width: 380px;
          height:500px;

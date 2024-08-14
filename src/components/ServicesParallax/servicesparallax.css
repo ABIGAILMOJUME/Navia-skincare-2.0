@@ -157,7 +157,31 @@
   color: #d4a7a7;
 }
 
-
+@media screen and (min-width: 2560px){
+.services-parallax-btn-container{
+  top: 74%;
+  left: 5%;
+}
+.services-parallax-para-text{
+  top: 69%;
+  left: 18.2%;
+  font-size: 25px;
+}
+.services-parallax-subtitle-text{
+  top: 57%;
+  left: 23%;
+  font-size: 30px;
+}
+.services-parallax-title-text{
+  top: 30%;
+  left: 23%;
+  font-size: 130px;
+}
+.services-parallax-btn{
+  width: 350px;
+  font-size: 20px;
+}
+}
 @media screen and (min-width: 769px) {
   .services-parallax-div-2 {
     display: none;
