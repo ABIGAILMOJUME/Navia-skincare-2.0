@@ -1,0 +1,164 @@
+.consultation-image-main-container{
+background-color:rgba(243, 232, 232, 0.5);
+}
+
+.consultation-image{
+    height:542px;
+}
+.consulation-header-and-list-overall-container{
+    padding:5% 0;
+}
+.consulation-header-and-list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(234, 219, 219, 1);
+}
+
+.consultation-img-heading{
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    font-size: 42px;
+    text-align: left;
+    font-family: 'Merchant Thin';
+    font-weight: 400;
+}
+
+.consultation-li{
+    color: rgba(212, 167, 167, 1);
+    line-height: 1.7;
+    letter-spacing: 0.15em;
+    font-size: 13px;
+    text-align: right;
+    font-family: 'Syne';
+    font-weight: 600;
+}
+
+.consultation-para-text{
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Assistant';
+    font-weight: 300;
+}
+
+.consultation-h3-text{
+    color: rgba(212, 167, 167, 1);
+    line-height: 1.7;
+    letter-spacing: 0.15em;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Syne';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.consultation-btn-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.consultation-btn{
+    display: flex;
+    background-color: #eadbdb;
+    transition: color 0.5s ease;
+    border: 1px solid #eadbdb;
+    border-radius: 50px;
+    letter-spacing: 0.12em;
+    font-size: 14px;
+    font-family: "Syne";
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    width: 220px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.5s ease;
+}
+
+.consultation-btn:hover{
+    color: #d4a7a7;
+}
+.consultation-btn-icon{
+    font-size: 18px;
+}
+
+@media(min-width:2560px){
+    .consulation-header-and-list-overall-container{
+        padding:5%;
+    }
+}
+
+@media(max-width:1200px){
+    .consultation-img-heading{
+        font-size: 30px;
+    }
+    .consultation-h3-text{
+        font-size: 14px;
+    }
+    .consultation-li{
+        font-size: 10px;
+    }
+    .consultation-para-text{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:990px){
+    .consultation-img-heading{
+        font-size: 25px;
+    }
+    .consultation-h3-text{
+        font-size: 14px;
+    }
+    .consultation-li{
+        font-size: 10px;
+    }
+    .consultation-para-text{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:700px){
+    .consultation-img-heading{
+        font-size: 42px;
+    }
+    .consultation-h3-text{
+        font-size: 16px;
+    }
+    .consultation-li{
+        font-size: 13px;
+    }
+    .consultation-para-text{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:550px){
+    .consultation-img-heading{
+        font-size: 23px;
+    }
+    .consultation-li{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:360px){
+    .consultation-img-heading{
+        font-size:20px;
+    }
+    .consultation-li{
+        font-size: 8px;
+    }
+    .consultation-h3-text{
+        font-size: 13px;
+    }
+}
