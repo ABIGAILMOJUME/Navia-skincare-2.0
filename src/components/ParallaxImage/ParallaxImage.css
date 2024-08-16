@@ -89,6 +89,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .parallax-image-container{
+    background-attachment: scroll;
+  }
   .parallax-button-container {
     flex-direction: column-reverse;
   }

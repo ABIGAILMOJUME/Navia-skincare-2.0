@@ -49,10 +49,24 @@
     padding-bottom: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bookings-parallax-image-container{
+      height: 550px;
+      z-index: -1000;
+      background-attachment: scroll;
+  }
+.bookings-parallax-subtitle-text {
+  font-size: 70px;
+}
+}
+
+
+
 @media screen and (max-width: 800px) {
     .bookings-parallax-image-container{
         height: 550px;
         z-index: -1000;
+        background-attachment: scroll;
     }
   .bookings-parallax-subtitle-text {
     font-size: 80px;
