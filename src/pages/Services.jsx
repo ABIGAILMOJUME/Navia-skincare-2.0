@@ -3,6 +3,7 @@ import ServicesParallax from '../components/ServicesParallax/servicesparallax';
 import ServicesExperience from '../components/ServicesExperience/servicesexperience';
 import Consultations from '../components/Consultations/consultations';
 import Specials from '../components/Specials/Specials'
+import FAQs from '../components/FAQs/faqs';
 
 const Services = () => {
   return (
@@ -10,7 +11,8 @@ const Services = () => {
       <ServicesParallax/>
       <ServicesExperience/>
       <Consultations/>
-      <Specials />
+      <Specials/>
+      <FAQs/>
     </div>
   )
 }

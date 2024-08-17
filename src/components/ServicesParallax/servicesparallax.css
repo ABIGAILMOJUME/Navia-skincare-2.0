@@ -164,7 +164,7 @@
 }
 .services-parallax-para-text{
   top: 69%;
-  left: 18.2%;
+  left: 17.9%;
   font-size: 25px;
 }
 .services-parallax-subtitle-text{
@@ -272,6 +272,7 @@
         .services-parallaximage-container {
           background-attachment: scroll;
           z-index: -1000;
+            height: 400px;
         }
         .services-parallax-btn-container {
           display: none;
@@ -332,6 +333,7 @@
 }
 
 @media screen and (max-width: 500px) {
+  
   .services-parallax-div-2 {
     padding: 7.5%;
   }
@@ -357,14 +359,14 @@
       padding: 7.5%;
     }
     .services-parallax-title-text-2 {
-      font-size: 35px;
+      font-size: 33px;
     }
     .services-parallax-para-text-2 {
       font-size: 16px;
     }
   
     .services-parallax-subtitle-text-2 {
-      font-size: 15px;
+      font-size: 13px;
     }
       .services-parallax-btn-2{
       width: 300px;

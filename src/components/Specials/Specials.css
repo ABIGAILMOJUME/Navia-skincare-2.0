@@ -141,6 +141,24 @@
     color: #d4a7a7;
 }
 
+@media screen and (min-width:2560px) {
+    .promo-div{
+        width: 350px;
+        font-size: 20px;
+    }
+    .promo-paragraph{
+        font-size: 45px;
+    }
+    .description-paragraph{
+        font-size: 20px;
+    }
+    .special-subtitle-text{
+        font-size: 100px;
+    }
+    .validity-paragraph{
+        font-size: 22px;
+    }
+}
 
 @media screen and (max-width:1032px) {
     .promo-div{
@@ -148,6 +166,9 @@
     }
     .promo-paragraph{
         font-size: 30px;
+    }
+    .special-title-text{
+        font-size: 20px;
     }
     .special-subtitle-text{
         font-size: 80px;
@@ -208,4 +229,16 @@
    .promo-paragraph{
     font-size: 25px;
    }
+   }
+
+   @media screen and (max-width:350px){
+    .promo-div{
+        width: 230px;
+       }
+       .promo-paragraph{
+        font-size: 23px;
+    }
+    .description-paragraph{
+        font-size: 12px;
+    }
    }
