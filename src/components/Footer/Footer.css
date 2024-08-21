@@ -94,6 +94,8 @@
   font-family: 'Syne';
   transition: all 0.5s ease-in;
   width: 200px;
+  font-size: 13px;
+  margin-top: 5px;
 }
 .visit-explore-button:hover{
 background-color: #eadbdb;
@@ -142,7 +144,7 @@ justify-content: center;
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .ten-off-button-1 {
@@ -213,6 +215,62 @@ justify-content: center;
     display: none;
   }
 }
+@media screen and (min-width: 1500px){
+  .footer-section{
+    justify-content: center;
+    gap:300px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .footer-section{
+    justify-content: center;
+    gap:200px;
+  }
+  .explore-visit-container{
+    gap: 120px;
+  }
+  .explore-heading{
+    font-size: 65px;
+  }
+  .explore-container li{
+    font-size: 27px;
+  }
+  .explore-para{
+    font-size: 23px;
+  }
+  .explore-para-italics{
+    font-size: 23px;
+  }
+  .visit-explore-button{
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .explore-icon{
+    font-size: 30px;
+  }
+  .ten-off-heading{
+    font-size: 68px;
+  }
+  .join-mail{
+    font-size: 28px;
+  }
+  .ten-off-button-1{
+    width: 300px;
+    font-size: 25px;
+  }
+  .ten-off-button-2{
+    width: 300px;
+    font-size: 25px;
+  }
+  .ten-off-container{
+    padding-top: 80px;
+  }
+  .ten-off-button-container{
+    margin-top: 30px;
+  }
+}
 
 @media screen and (max-width: 1124px) {
   .explore-heading{
@@ -237,6 +295,7 @@ justify-content: center;
   }
   .visit-explore-button{
     width: 150px;
+ 
    }
   .ten-off-button-1{
     width: 150px;
@@ -263,6 +322,7 @@ justify-content: center;
 .explore-container li {
   font-size: 10px;
  }
+ 
 }
 
 @media screen and (max-width: 890px){
@@ -354,5 +414,14 @@ justify-content: center;
 @media screen and (max-width: 500px) {
 .visit-container{
   margin-top: 0;
+}
+.explore-heading{
+  font-size: 30px;
+}
+.explore-para{
+  font-size: 8.5px;
+}
+.explore-para-italics{
+  font-size:8.5px;
 }
 }

@@ -38,6 +38,20 @@
     font-family: 'Merchant Thin';
 }
 
+
+@media (min-width:2560px){
+.bookings-form-h1{
+    font-size: 150px;
+}
+.bookings-form-p{
+    font-size: 20px;
+}
+.bookings-form-h3{
+    font-size: 70px;
+}
+}
+
+
 @media (max-width:780px){
     .bookings-form-container{
         height: auto;
@@ -80,10 +94,11 @@
         font-size: 15px;
         margin: 40px 0 80px;
     }
-    }
     .bookings-form-h3{
         font-size: 30px;
     }
+    }
+   
 
 
 @media (max-width:400px){

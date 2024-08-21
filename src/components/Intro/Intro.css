@@ -116,6 +116,27 @@ u {
   }
   }
 
+  @media screen and (min-width:2560px){
+      .intro-general-container{
+        grid-template-columns: 40% 60%;
+      }
+      .intro-image-container{
+        width: 1150px;
+        height: 550px;
+      }
+      
+      .intro-title-text{
+        font-size: 110px;
+      }
+      .intro-subtitle-text{
+        font-size: 23px;
+        margin: 20px 0;
+      }
+      .intro-description-text{
+        font-size: 22px;
+      }
+  }
+
 @media screen and (max-width:1200px){
 .intro-title-text{
   font-size: 70px;
@@ -278,6 +299,11 @@ u {
   .intro-title-text{
     font-size: 45px;
   }
+  .intro-description-text {
+    text-align: center;
+    padding: 0;
+    font-size: 14px;
+  }
   .intro-stamp{
     width: 100px;
   }
@@ -316,46 +342,50 @@ u {
  .intro-title-text{
   font-size: 35px;
 }
-.intro-description-text {
-  text-align: center;
-  padding: 0;
-  font-size: 16px;
+.intro-subtitle-text{
+  font-size: 14px;
+  margin-top: 15px;
 }
+
 .intro-stamp-container{
  right: -30px;
+}
+.intro-button{
+  width: 280px;
+  font-size: 14px;
 }
 }
 @media screen and (max-width:360px) {
  
   .intro-image-container{
-   width: 300px;
+   width: 280px;
   }
   .intro-title-text{
    font-size: 35px;
  }
- .intro-description-text {
-   text-align: center;
-   padding: 0;
-   font-size: 16px;
- }
+
  .intro-stamp-container{
   right: -48px;
  }
+ .intro-description-text {
+  text-align: center;
+  padding: 0;
+  font-size: 10px;
+}
  }
 
  @media screen and (max-width:330px) {
  
   .intro-image-container{
-   width: 300px;
+   width: 270px;
   }
   .intro-title-text{
-   font-size: 35px;
+   font-size: 25px;
  }
- .intro-description-text {
-   text-align: center;
-   padding: 0;
-   font-size: 16px;
+ .intro-subtitle-text{
+  font-size: 10px;
  }
+
  .intro-stamp{
   width: 85px;
 }

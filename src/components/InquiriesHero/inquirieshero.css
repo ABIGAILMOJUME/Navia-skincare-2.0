@@ -1,0 +1,135 @@
+.inquiries-main-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.inquiries-text-container {
+  padding: 15%;
+  background-color: rgba(243, 232, 232, 0.5);
+}
+
+.inquiries-h3-text {
+  color: rgba(212, 167, 167, 1);
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+  font-size: 17px;
+  text-align: left;
+  font-family: "Syne";
+  font-weight: 500;
+}
+
+.inquiries-h1-text {
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-size: 70px;
+  text-align: left;
+  font-family: "Merchant Thin";
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.inquiries-para-text {
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Assistant";
+  font-weight: 300;
+}
+
+.inquiries-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1600px) {
+  
+  .inquiries-h3-text{
+    font-size: 23px;
+  }
+  .inquiries-h1-text {
+    font-size: 85px;
+  }
+  .inquiries-para-text {
+    font-size: 23px;
+  }
+}
+@media (min-width: 2560px) {
+  .inquiries-main-container {
+    grid-template-columns: 35% 65%;
+  }
+  .inquiries-image-container {
+    height: 900px;
+  }
+}
+
+@media (max-width: 860px) {
+  .inquiries-h1-text {
+    font-size: 55px;
+  }
+  .inquiries-para-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .inquiries-main-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .inquiries-text-container{
+    padding: 15% 7.5%;
+  }
+  .inquiries-image-container {
+    height: 500px;
+  }
+  .inquiries-h3-text {
+    text-align: center;
+  }
+  .inquiries-h1-text {
+    text-align: center;
+    font-size: 60px;
+  }
+  .inquiries-para-text {
+    text-align: center;  
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .inquiries-image-container {
+    height: 350px;
+  }
+  .inquiries-para-text { 
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+    .inquiries-h3-text {
+       font-size: 14px;
+      }
+      .inquiries-h1-text {
+        text-align: center;
+        font-size: 50px;
+      }
+    .inquiries-para-text { 
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .inquiries-h3-text {
+       font-size: 12px;
+      }
+      .inquiries-h1-text {
+        text-align: center;
+        font-size: 40px;
+      }
+    .inquiries-para-text { 
+      font-size: 10px;
+    }
+  }
+
+

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <>
+    
       <div className="hero-container">
         <div className="first-column">
           <p className="p1">PERSONALIZED TREATMENTS MADE JUST FOR YOU</p>
@@ -28,7 +28,7 @@ const Hero = () => {
           <img src={hero} alt="hero" className="hero-img" />
         </div>
       </div>
-    </>
+  
   );
 };
 

@@ -89,6 +89,7 @@
 
   .FAQ-btn-h3-icon{
     font-size: 35px;
+    color: rgba(231, 201, 201, 1);
   }
 
 
@@ -171,7 +172,7 @@
 }
 
 
-@media(max-width:1032px){
+@media(max-width:1055px){
     .FAQ-text-container{
         padding:7.5% ;
     }
@@ -199,7 +200,7 @@
 
 }
 
-@media(max-width:930px){
+@media(max-width:940px){
     .FAQ-text-container{
         padding:7.5% 5%;
     }
@@ -223,6 +224,9 @@
 }
 .FAQ-btn-h3{
     justify-content: center;
+    font-size: 30px;
+}
+.FAQ-btn-h3-icon{
     font-size: 30px;
 }
 .FAQ-image-container{

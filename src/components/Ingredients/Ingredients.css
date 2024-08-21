@@ -50,6 +50,50 @@
     font-size: 25px;
     color: #E7C9C9;
 }
+
+
+
+@media (min-width:1440px){
+    .ingredients-img-container{
+       height: 600px;
+    }
+    .ingredients-p-text{
+       font-size: 18px;
+    }
+    .ingredients-text-container{
+       padding: 100px 50px 60px;
+    }
+    .ingredients-h3-text{
+       font-size: 20px;
+    }
+   }
+@media (min-width:2560px){
+    .ingredients-img-container{
+       height: 620px;
+    }
+    .ingredients-h1-text{
+        font-size: 90px;
+    }
+    .ingredients-p-text{
+       font-size: 23px;
+    }
+    .ingredients-text-container{
+       padding: 100px 50px 60px;
+    }
+    .ingredients-h3-text{
+       font-size: 23px;
+    }
+   }
+
+
+@media (min-width:1024px){
+    .ingredients-h3-container{
+        margin-top: 30px;
+    }
+}
+
+
+
 @media (max-width:1024px) {
     .ingredients-text-container{
         padding:  50px 80px;

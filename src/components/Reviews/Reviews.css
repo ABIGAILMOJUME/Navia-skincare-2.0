@@ -19,7 +19,7 @@
 .reviews-container {
   background-color: #f3e8e8;
   opacity: 0.7;
- 
+
 }
 
 .title-text {
@@ -29,7 +29,7 @@
   line-height: 1.2;
   font-family: "Merchant Thin";
   font-weight: 300;
-  padding: 15px 100px 0;
+  padding: 7.5% 15% 0;
 }
 
 .testimonial-text {
@@ -40,7 +40,8 @@
   font-family: "Assistant";
   font-weight: 300;
   font-style: normal;
-  padding: 0 100px;
+  margin: 15px 0 0;
+  padding: 0 15% ;
 }
 
 .client-name-text {
@@ -93,6 +94,34 @@
     color: #d4a7a7;
 
 }
+
+
+
+
+@media screen and (min-width: 1440px){
+.reviews-image-container{
+  height: 580px;
+}
+}
+
+@media screen and (min-width: 2560px){
+  .general-container{
+    grid-template-columns: 40% 60%;
+  }
+  .reviews-image-container{
+    height: 695px;
+  }
+  .title-text{
+    font-size: 70px;
+  }
+  .testimonial-text{
+    font-size: 20px;
+  }
+  .client-name-text{
+    font-size: 20px;
+  }
+  }
+
 @media screen and (max-width: 768px) {
   .general-container {
     display: flex;
@@ -101,16 +130,38 @@
 
   .next-review-text{
     justify-content: center;
+    font-size: 15px;
+  }
+  .reviews-image-container{
+    height: 400px;
   }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:500px) {
   .title-text {
-    padding: 0 50px;
+    padding: 0 7.5%;
+    font-size: 30px;
+    margin-top: 15px;
   }
   
   .testimonial-text {
-    
-    padding: 0 50px;
+    font-size: 13px;
+    padding: 0 7.5%;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .title-text {
+    padding: 0 7.5%;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  .testimonial-text {
+    font-size: 10px;
+    padding: 0 7.5%;
+  }
+  .client-name-text{
+    font-size: 14px;
   }
 }
 

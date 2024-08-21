@@ -18,7 +18,7 @@ const About = () => {
   return (
     <>
       <AboutHero />
-      <div className=" ">
+      <div >
         <div className="bg-[#F3e8f8] ">
 
           {/* JESSIE JOHNSON */}
@@ -234,7 +234,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="ShopProduct-button-container">
-                  <Link to="/shop">
+                  <Link to="/bookings">
                     <button className="ShopProduct-button">
                       BOOK AN APPOINTMENT
                       <span className="shopproduct-btn-icon">

@@ -64,6 +64,25 @@
 }
 
 
+@media screen and (min-width: 2560px){
+    .booking-policies-title-text{
+        font-size: 55px;
+    }
+    .booking-policies-sub-text{
+        font-size: 20px;
+    }
+   .booking-policies-h3{
+        font-size: 23px;
+   }
+   .booking-policies-p{
+    font-size: 24px;
+    line-height: 2.1;
+   }
+   .booking-policies-container{
+    gap: 40px;
+   }
+  }
+
 @media (max-width:1024px){
     .booking-policies-p{
         font-size: 16px;

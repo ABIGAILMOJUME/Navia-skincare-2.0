@@ -79,9 +79,18 @@
     font-style: normal;
     margin: 10px 0  ;
   }
-  
+  @media(min-width:1500px){
+    .experience-main-container{
+      grid-template-columns: 50% 50%;
+    }
+    .experience-image-container{
+      width: 550px;
+    }
+  }
   @media(min-width:2560px){
-   
+   .experience-main-container{
+    grid-template-columns: 40% 60%;
+   }
 .experience-image-container{
   width: 700px;
   height: 820px;
@@ -170,9 +179,13 @@ letter-spacing: 0.15em;
         flex-direction: column;
       }
     
+      .experience-main-container{
+        gap: 0;
+      }
+
       .experience-image-container {
        width: 550px;
-        height:500px;
+        height:400px;
         margin: 0 auto;
       }
       
@@ -202,9 +215,11 @@ letter-spacing: 0.15em;
    }
 
    @media(max-width:650px){
+    .experience-title-text{
+      font-size: 17px;
+    }
     .experience-image-container {
-        width: 500px;
-         height:500px;
+        width: 500px;  
          margin: 0 auto;
        }
       .experience-stamp-container{
@@ -229,9 +244,11 @@ letter-spacing: 0.15em;
    }
 
    @media(max-width:576px){
+    .experience-title-text{
+      font-size: 15px;
+    }
     .experience-image-container {
         width: 450px;
-         height:500px;
          margin: 0 auto;
        }
       .experience-stamp-container{
@@ -252,6 +269,7 @@ letter-spacing: 0.15em;
    }
 
    @media(max-width:492px){
+   
     .experience-image-container {
         width: 400px;
          height:500px;
@@ -270,7 +288,7 @@ letter-spacing: 0.15em;
       }
       .experience-title-text {
         text-align: center;
-        font-size: 17px;
+        font-size: 13px;
       }
       .experience-stamp{
         width: 100px;
@@ -284,7 +302,6 @@ letter-spacing: 0.15em;
    @media(max-width:460px){
     .experience-image-container {
         width: 380px;
-         height:500px;
          margin: 0 auto;
        }
      
@@ -298,9 +315,8 @@ letter-spacing: 0.15em;
         padding: 0 5px;
         font-size: 12px;
       }
-      .experience-title-text {
-        text-align: center;
-        font-size: 17px;
+      .experience-title-text{
+        font-size: 12px;
       }
      
    }
@@ -308,7 +324,6 @@ letter-spacing: 0.15em;
    @media(max-width:400px){
     .experience-image-container {
         width: 320px;
-         height:500px;
          margin: 0 auto;
        }
      
@@ -326,13 +341,14 @@ letter-spacing: 0.15em;
         text-align: center;
         font-size: 45px;
       }
-    
+      .experience-title-text{
+        font-size: 10px;
+      }
    }
 
    @media(max-width:350px){
     .experience-image-container {
         width: 270px;
-         height:500px;
          margin: 0 auto;
        }
      

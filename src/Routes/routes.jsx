@@ -6,6 +6,7 @@ import Bookings from '../pages/Bookings'
 import Contact from '../pages/Contact'
 import SingleProduct from '../pages/SingleProduct'
 import Services from '../pages/Services'
+import Inquiries from "../pages/Inquiries";
 
 const Routes = [
     {
@@ -39,6 +40,10 @@ const Routes = [
           {
             path: "/services",
             element: <Services/>,
+          },
+          {
+            path: "/inquiries",
+            element: <Inquiries/>,
           },
       ],
     },

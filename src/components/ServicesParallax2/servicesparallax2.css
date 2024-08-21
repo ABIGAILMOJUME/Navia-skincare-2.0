@@ -1,0 +1,172 @@
+.servicesparallax2-image-container {
+    height: 500px;
+    width: 100%;
+    background-image: url(../../assets/servicesparallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+  .servicesparallax2-title-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fcfbfa;
+    line-height: 1.7;
+    letter-spacing: 0.15em;
+    font-size: 17px;
+    text-align: center;
+    font-family: "Syne";
+    font-weight: 500;
+  }
+  
+  .servicesparallax2-subtitle-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 40px 0;
+    color: #fcfbfa;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Merchant Thin";
+    font-weight: 400;
+  }
+  
+  .servicesparallax2-button-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .servicesparallax2-button {
+    background-color: #f3e8e8;
+    transition: all 0.5s ease;
+    border: 1px solid #eadbdb;
+    border-radius: 50px;
+    color: #2f2f2f;
+    letter-spacing: 0.12em;
+    font-size: 14px;
+    font-family: "Syne";
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .servicesparallax2-button-icon{
+    font-size: 18px;
+  }
+
+  .one {
+    background-color: white;
+  }
+  .one:hover {
+    color: #d4a7a7;
+  }
+
+  @media screen and (min-width: 2560px){
+      .servicesparallax2-subtitle-text
+      {
+        font-size: 75px;
+      }
+  }
+
+  @media screen and (max-width: 1600px) {
+    .servicesparallax2-subtitle-text {
+      font-size: 63px;
+      top: 40%;
+    }
+    .servicesparallax2-button-container {
+        top: 80%;
+      }
+  }
+
+
+  @media screen and (max-width: 1032px) {
+    .servicesparallax2-subtitle-text {
+      font-size: 55px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+
+
+    .servicesparallax2-subtitle-text {
+        font-size: 50px;
+        top: 40%;
+      }
+     
+      .servicesparallax2-button-container {
+          top: 80%;
+        }
+  }
+
+  @media screen and (max-width: 768px){
+    .servicesparallax2-image-container{
+        background-attachment: scroll;
+    }
+  }
+  
+
+  @media screen and (max-width: 650px) {
+    .servicesparallax2-title-text{
+        font-size: 14px;
+    }
+
+    .servicesparallax2-subtitle-text {
+        font-size: 45px;
+      }
+  }
+
+
+  @media screen and (max-width: 500px) {
+    .servicesparallax2-title-text{
+        font-size: 15px;
+    }
+    .servicesparallax2-subtitle-text {
+        font-size:35px;
+        top: 40%;
+      }
+     
+      .servicesparallax2-button-container {
+          top: 80%;
+        }
+        .servicesparallax2-button{
+          width: 250px;
+          font-size: 13px;
+        }
+  }
+  
+  @media screen and (max-width: 370px) {
+    .servicesparallax2-title-text{
+        font-size: 15px;
+    }
+    .servicesparallax2-subtitle-text {
+        font-size:27px;
+      }
+     
+  }
+  
+ 
+  
+  

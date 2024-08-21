@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import "./contactform.css";
 import { PiArrowRightThin } from "react-icons/pi";
+
 
 const ContactForm = () => {
   return (
@@ -16,7 +18,9 @@ const ContactForm = () => {
           <input type="text" placeholder="SERVICE INTERESTED IN*" className="other-inputs" />
           <textarea placeholder="WRITE YOUR MESSAGE*" className="text-area" />
           <div className="contactform-btn-container">
-          <button className="contactform-btn" type="submit">SUBMIT YOUR INQUIRY<span className="contactform-btn-icon"><PiArrowRightThin/></span> </button>
+            <Link to='/inquiries'>
+            <button className="contactform-btn" type="submit">SUBMIT YOUR INQUIRY<span className="contactform-btn-icon"><PiArrowRightThin/></span> </button>
+            </Link>
           </div>
          
         </form>
